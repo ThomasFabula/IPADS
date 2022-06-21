@@ -1,0 +1,24 @@
++-----------------------------------------------------------------------------+
+I                   IAP - Physik Abstracts Dokumentations System              I
+I                         * * *   I  P  A  D  S   * * *                       I
+I                     L I T E R A T U R V E R W A L T U N G                   I
++-----------------------------------------------------------------------------+
+I  Lieber IPADS-Benutzer,                                                     I
+I                                                                             I
+I  diese Literaturverwaltung stellt einen bescheidenen Versuch dar, Dir bei   I
+I  Deiner Literaturrecherche behilflich zu sein. Das vorliegende Programm     I
+I  benutzt die Datenbank 'dBASE III plus' und ist relativ einfach zu bedienen.I
+I  (Bei eventuellen Unklarheiten bitte das dBASE-Handbuch konsultieren oder   I
+I  die On-Line Hilfen in Anspruch nehmen.)                                    I
+I  Das kleine Programm (IPADS.PRG) bietet eine einfache Benutzerfuehrung und  I
+I  sollte fuer die meisten Anwendungen ausreichend sein.                      I
+I  Bei besonderen Aufgabenstellungen sollte man sich auf dBASE-Ebene begeben  I
+I  und mit ASSIST (Programmpunkt 9) arbeiten.                                 I
+I  Nach der Eingabe von neuen Artikeln sollte eine Sicherheitskopie der       I
+I  Datenbank (LIT.DBF) auf Diskette erfolgen.                                 I
+I  Bitte veraendere an der Struktur der Datenbank und an allen sonstigen      I
+I  Dateien und Einstellungen  n i c h t s  -  nur so kann IPADS von allen     I
+I  erfolgreich benutzt werden.                                                I
+I                                                                 Vielen Dank.I
++-----------------------------  (C) 1988 IAP  --------------------------------+
+
