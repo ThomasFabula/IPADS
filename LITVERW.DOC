@@ -1,0 +1,52 @@
+**********************************************************************
+*                                                                    *
+* Datei:     LIT.DOC  -  Programmverbund IPADS                       *
+*                                                                    *
+* Notiz....: Copyright (c) 1988, Institut fuer Angewandte Physik     *
+*                                der Universitaet Bonn               *
+*                                                                    *
+**********************************************************************
+*                                                                    *
+* Literaturverwaltungsprogramm fuer Physik Abstracts.                *
+* Verwendete Dateien:                                                *
+*                                                                    *
+*            IPADS.BAT     -  Batchdatei auf DOS-Ebene               *
+*            IPADS.PRG     -  dBASE-Programmdatei                    *
+*            IPADS.WP      -  Dokumentationsdatei                    *
+*            FORLISTE.WP   -  Liste der Forschungsgebiete            *
+*            HILFE.PRG     -  Hilfe-Modul zu IPADS                   *
+*            LIT.DBF       -  Literaturdatenbank                     *
+*            LIT.DBT       -  Literaturdatenbank   (MEMO)            *
+*            LIT.FMT       -  Formatdatei                            *
+*            LISTE.FMT     -  Formatdatei zum Editieren              *
+*            LISTn.FMT     -  Formatdatei zu SUCHn.DBF               *
+*            SUCHE.TXT     -  ASCII-Datei Literaturliste             *
+*                                                                    *
+*            temporaere Dateien:                                     *
+*            SUCH1.DBF     -  temp. Suchdatei Autoren                *
+*            SUCH2.DBF     -  temp. Suchdatei Titel&Kewords          *
+*            SUCH3.DBF     -  temp. Suchdatei Keywords               *
+*            SUCHT.DBF     -  temp. Suchdatei Titel                  *
+*            TEMP.DBF      -  temp. Arbeitsdatei                     *
+*                                                                    *
+**********************************************************************
+*                                                                    *
+* Dateien:   SERVICE.PRG  -  diese dBASE-Programmdatei               *
+*            SERVICE.BAT  -  DOS-Stapeldatei (Batch)                 *
+*            KEYPACK.COM  -  Filter-Programm, um doppelte            *
+*                            Stichworteintragungen zu verhindern.    *
+*            KEYPACK.PAS  -  Turbo-Pascal Quelldatei (s.o.)          *
+*            FILTER.TXT   -  temporaere Stichwortdatei               *
+*            ARTIKEL.TXT  -  Textdatei aller Artikel                 *
+*            KEYWORDS.TXT -  alphabetisch sortierte Stichwortdatei   *
+*            TEMPKEY.DBF  -  Ursprungsdatei (Structure-Init.)        *
+*                                                                    *
+*            temporaere Dateien:                                     *
+*            KEYn.DBF     -  temporaere dBASE-Einzelstichwortdatei   *
+*            KEYn.TXT     -  temporaere Text-Einzelstichwortdatei    *
+*            WORT.DBF     -  temporaere Gesamt-Stichwortdatei        *
+*            KEYSORT.DBF  -  temp. sortierte Gesamt-Stichwortdatei   *
+*                                                                    *
+**********************************************************************
+
+
