@@ -1,0 +1,80 @@
+Liste der Forschungsgebiete:
+
+Im folgenden sind die Forschungsgebiete und die zugehörigen Untergebiete aufgelistet. Die Begriffe (GROß geschrieben, englisch) sind in die Datenbankfelder (GEBIET und SUBGEBIET) entsprechend einzutragen. Besteht bei der Zuordnung des Artikels Unklarheit bezüglich der Zugehörigkeit, so kann er jeweils unter der allgemeinen Rubrik GENERAL eingetragen werden. Eine Doppeleintragung eines Artikels ist unbedingt zu vermeiden, um die Datenbank nicht unnötig aufzublähen. Durch eine entsprechende Wahl der Stichworte (KEYWORDn, n=1-8) kann eine Suche unter einem "anderen" Forschungsgebiet erleichtert werden.
+
+
+	LASER COOLING  ( & Trapping)
+		- GENERAL		(Allg.: Manipulation von Atomstrahlen)
+		- DEFLECTION
+		- FOCUSSING 		(Kollimation, "Channeling")
+		- DECELERATION
+		- OPTICAL TRAPS		(Neutrale Atomfallen)
+		- MAGNETIC TRAPS
+		- THEORY 		(Theorie der Lichtkräfte)
+
+
+	LASER TECH
+		- GENERAL		(sonstiges)
+		- DYE LASERS
+		- DIODE LASERS		(Halbleiterlaser)
+		- HeNe-LASERS 
+		- PULSED LASERS		(Excimer, Nd-YAG, etc.)
+		- IR LASERS
+		- SOLID STATE LASERS
+		- FIBERS		(Allg. Glasfasertechnik)
+		- LIGHT BEAMS		(Gauss' Strahlen, cavities, Linsen)
+		- STABILIZATION		(Regelungen, Elektronik)
+		- DATA ACQUISITION	(Meßwerterfassung, -verarbeitung)
+		- FREQU. STANDARDS	(Metrologie, "Ramsey")
+		- OPTOELECTRONICS
+		- VUV GENERATION
+		- NONLIN. OPTICS	(Technik, Experimente)
+		- MODULATION
+		- ULTRA SHORT PULSES
+
+
+	QUANTUM OPTICS			(Theorie allgemein)
+		- GENERAL		(Quantum Jumps, Photonstatistik)
+		- FWM			(4-Wave-Mixing)
+		- SQUEEZING
+		- NONLIN. OPTICS	(Verdopplung, etc.)	ATOMIC PHYSICS
+		- GENERAL
+		- FS			(Exp. & Parametrisierung)
+		- HFS			(Exp. & Parametrisierung)
+		- IS			(Exp. & Parametrisierung)
+		- SPECTROSCOPY		(Spektroskopiemethoden)
+		- RYDBERG
+		- AB METHODS		(Atomstrahl Technik)
+		- TARGETS		(Polarisierte Targets, COSY, etc.)
+		- TABBS			(Tabellen, etc.)
+		- FUND. TESTS		(Fund. Tests: QED, Allg.Rel. Theorie)
+
+
+	ION TRAPS
+		- GENERAL		(auch Theorie)
+		- TECH			(Technik und Experimente)
+		- COOLING
+		- SPECTROSCOPY
+		- METROLOGY
+		- GEONIUM
+
+
+	LASER MEDICINE
+		- GENERAL
+		- ANGIOPLASTY
+		- CANCER THERAPY
+		- PHOTO DYNAMIC THERAPY
+
+
+	CLUSTER
+		- GENERAL		(auch Theorie)
+		- HANDLING		(Produktion, Detektierung)
+		- EXP			(Technik, Exprimente)
+		- APPLICATIONS		(Anwendung der Experimente)
+
+
+	SURFACE
+		- GENERAL		(auch Theorie)
+		- EXP. TECH		(Analyse)
+
+
