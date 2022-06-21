@@ -1,0 +1,58 @@
+Felddefinition fÅr das Format : C:LIT.scr
+
+Seite Row  Col  Datenbank    Feld  	     Typ 	  LÑnge  Dez
+  1    2   10    LIT        TITEL          Zeichen          100 
+  FUNCTION S68
+  1   16   13    LIT        ZEITSCHRFT     Zeichen           40 
+  1   16   61    LIT        VERLAG         Zeichen           20 
+  FUNCTION S18
+  1   17   13    LIT        VOLUME         Zeichen            5 
+  1   17   26    LIT        NUMBER         Zeichen            5 
+  1   17   42    LIT        SEITE          Zeichen           10 
+  PICTURE XXXXXXXXXXX
+  1   17   61    LIT        JAHRGANG       Numerisch          4      0 
+  1   20   12    LIT        ABSTRACT       MEMO              10 
+  1    1   60    LIT        GEBIET         Zeichen           20 
+  FUNCTION S18
+  1   10   12    LIT        KEYWORD1       Zeichen           25 
+  1   10   51    LIT        KEYWORD2       Zeichen           25 
+  1   11   12    LIT        KEYWORD3       Zeichen           25 
+  1   11   51    LIT        KEYWORD4       Zeichen           25 
+  1   12   12    LIT        KEYWORD5       Zeichen           25 
+  1   12   51    LIT        KEYWORD6       Zeichen           25 
+  PICTURE XXXXXXXXXXXXXXXXXXXXXXXX
+  1    6   12    LIT        KOAUTOR1       Zeichen           20 
+  1    7   12    LIT        KOAUTOR3       Zeichen           20 
+  1    6   51    LIT        KOAUTOR2       Zeichen           20 
+  1    7   51    LIT        KOAUTOR4       Zeichen           20 
+  1    1   10    LIT        KöRZEL         Zeichen            6 
+  1    1   27    LIT        AUTOR          Zeichen           20 
+  1    4   12    LIT        ANMERKUNG      Zeichen           60 
+  FUNCTION S56
+  1   13   12    LIT        KEYWORD7       Zeichen           25 
+  1   13   51    LIT        KEYWORD8       Zeichen           25 
+
+
+Seite :  1 
+
+ KöRZEL  :XXXXXX    AUTOR :XXXXXXXXXXXXXXXXXXXX     GEBIET :XXXXXXXXXXXXXXXXXX
+ TITEL   :XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ ANMERKUNG: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ KOAUTOR1 : XXXXXXXXXXXXXXXXXXXX        KOAUTOR2 : XXXXXXXXXXXXXXXXXXXX
+ KOAUTOR3 : XXXXXXXXXXXXXXXXXXXX        KOAUTOR4 : XXXXXXXXXXXXXXXXXXXX
+
+
+ KEYWORD1 : XXXXXXXXXXXXXXXXXXXXXXXXX   KEYWORD2 : XXXXXXXXXXXXXXXXXXXXXXXXX
+ KEYWORD3 : XXXXXXXXXXXXXXXXXXXXXXXXX   KEYWORD4 : XXXXXXXXXXXXXXXXXXXXXXXXX
+ KEYWORD5 : XXXXXXXXXXXXXXXXXXXXXXXXX   KEYWORD6 : XXXXXXXXXXXXXXXXXXXXXXXX
+ KEYWORD7 : XXXXXXXXXXXXXXXXXXXXXXXXX   KEYWORD8 : XXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+ ZEITSCHRIFT:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX VERLAG:XXXXXXXXXXXXXXXXXX
+ VOL.       :XXXXX    NO.:XXXXX     SEITE:XXXXXXXXXXX   JAHR:XXXX
+
+
+ ABSTRACT : XXXX
+
