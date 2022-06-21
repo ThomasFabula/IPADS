@@ -1,0 +1,198 @@
+                     Hilfsbildschirm 1 : ANHAENGEN
+                     -----------------------------
+
+      FÅr die Neueingabe von Daten (Artikel) steht die Standard-Eingabe-
+      maske des dBASE-Interpreters zur VerfÅgung. Die neu eingegebenen Daten
+      werden an die bestehende Datenbank angehaengt und beim Verlassen des
+      Programms nach dem Feld KUERZEL sortiert und indiziert (LIT.NDX).
+
+      Um die Felder zu bearbeiten stehen neben den Pfeiltasten die
+      Wordstar Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur VerfÅgung.
+      Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> geoeffnet
+      und mit <Ctrl-End> geschlossen. Hier laesst sich ein beliebiger Text
+      (max. 1024 Zeichen) eingeben. Die Escape-Taste <ESC> bricht die Eingabe
+      ab, die Daten werden dann  n i c h t  abgespeichert. Das Abspeichern
+      der neuen Daten erfolgt indem man ein neue Eingabemaske erreicht
+      (PgDown bzw. <RETURN>) oder <Ctrl-W> (Speichern) eingibt.
+
+      Mit der  <F1> - Funktionstaste laesst sich der Hilfsbildschirm am
+      oberen Bildschirmrand jederzeit ein- bzw. ausblenden.
+
+
+                     Hilfsbildschirm 2 : AENDERN
+                     ---------------------------
+
+      Um einen bestehenden Datensatz zu aendern, gibt man dessen Nummer
+      (Recordnummer) ein. Falls diese nicht genau bekannt ist, so kann
+      mit Hilfe der PgUp- bzw. PgDown-Tasten die Datenbank durchblaettert
+      werden und der jeweilige Artikel gesucht werden.
+      (Hierbei ist allerdings Vorsicht geboten, da Aenderungen der Feld-
+      inhalte abgespeichert werden.)
+
+      Um die Felder zu bearbeiten stehen neben den Pfeiltasten die
+      Wordstar Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur VerfÅuegung.
+      Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> geoeffnet
+      und mit <Ctrl-End> geschlossen. Hier laesst sich ein beliebiger Text
+      (max. 1024 Zeichen) eingeben. Die Escape-Taste <ESC> bricht die Eingabe
+      ab, die Daten werden dann  n i c h t  abgespeichert. Das Abspeichern
+      der neuen Daten erfolgt indem man eine neue Eingabemaske erreicht
+      (PgDown bzw. <RETURN>) oder <Ctrl-W> (Speichern) eingibt.
+
+
+                     Hilfsbildschirm 3 : LISTE
+                     -------------------------
+
+      Um einen schnellen Ueberblick Åber den Inhalt der Datenbank zu erhalten,
+      ist es moeglich sie in Form einer Liste darstellen zu lassen.
+      Hierbei werden folgende Datenbank-Felder angezeigt:
+
+             KUERZEL, GEBIET, SUBGEBIET, AUTOREN, ZEITSCHRFT, TITEL
+
+      Mit Hilfe der Pfeiltasten bzw. PgUp und PgDown kann die Liste nach vorn
+      und hinten durchgeblaettert, mit Hilfe der Tastenkombination <Ctrl-Pfeil-
+      tasten> links und rechts verschoben werden.
+      Die Feldinhalte (bis auf KUERZEL) sind hierbei nicht aenderbar.
+
+      Mit der  <F1> - Funktionstaste laesst sich der Hilfsbildschirm am oberen
+      Bildschirmrand jederzeit ein- bzw. ausblenden.
+
+
+                     Hilfsbildschirm 4 : AUTOR
+                     -------------------------
+
+      Unter Programmpunkt 1 kann eine AUTOREN-Recherche erfolgen, nachdem man
+      den Autorennamen oder einen Teilstring eingegeben hat. Die recherchierten
+      Daten werden bei der Suche auf dem Bildschirm einzeilig dargestellt,
+      anschliessend in der temporaeren Datei SUCH1.DBF zwischengespeichert.
+
+      Unter Programmpunkt 2 kann die recherchierte Suchdatei SUCH1.DBF erneut
+      angeschaut werden.
+
+      Unter Programmpunkt 3 kann eine bereits frÅueher recherchierte, externe
+      Datei eingelesen und angezeigt werden. Hierzu wird der Dateiname (evtl.
+      mit Laufwerksangabe, z.B.: A:RECH.DBF) eingegeben.
+
+      Anmerkung:
+      ----------
+      Die externe DBF-Datei (einschliesslich zugehoeriger DBT-Datei) muss auf
+      Diskette bzw. Platte vorhanden sein und die  g l e i c h e  Datenbank-
+      struktur wie LIT.DBF besitzen, sonst erfolgt eine Fehlermeldung.
+
+
+                     Hilfsbildschirm 5 : TITEL&KEY
+                     -----------------------------
+
+      Unter Programmpunkt 1 kann eine kombinierte Recherche nach den Feldern
+      TITEL und KEYWORDn (n = 1 - 8) erfolgen. Hierzu ist ein Suchbegriff bzw.
+      ein Teilstring einzugeben. Die recherchierten Daten werden bei der Suche
+      auf dem Bildschirm dargestellt, abhaengig davon ob sie im Feld TITEL oder
+      bei den Stichworten (KEYWORD) enthalten sind. Anschliessend werden sie in
+      der temporaeren Datei SUCH2.DBF zwischengespeichert. Der Suchbegriff wird
+      automatisch nach Klein- oder Gro·schrift recherchiert.
+
+      Unter Programmpunkt 2 kann die recherchierte Suchdatei SUCH2.DBF erneut
+      angeschaut werden.
+
+
+                     Hilfsbildschirm 6 : GENERIEREN
+                     ------------------------------
+
+      Dieser Programmpunkt bietet die Moeglichkeit anhand der recherchierten
+      Daten (Artikel) eine Literaturliste  SUCHE.TXT  zu generieren, die im
+      ASCII-Format auf Diskette bzw. Platte gespeichert wird. Somit ist die
+      Datei SUCHE.TXT von beliebigen Texteditoren (z.B. WordPerfect, etc.)
+      anschliessend weiter bearbeitbar.
+
+      Es koennen verschiedene Recherchen (AUTOR- und TITEL&KEYWORD-Recherche)
+      zusammengefasst werden, sofern sie bereits durchgefueÅhrt wurden und in
+      e i n e r  Literaturliste abgespeichert werden.
+
+      Das Format der Literaturliste setzt sich aus den beiden Datenbank-
+      feldern AUTOREN und ZEITSCHRFT zusammen.
+
+
+      Ein typisches Feld hat z.B. die Form:
+
+      Einstein,A.,Hertz,H.,Newton,I. Phys.Rev.Lett.12,10,3422 (1988)
+
+
+                     Hilfsbildschirm 7 : SICHERN
+                     ---------------------------
+
+      Dieser Programmpunkt bietet die Moeglichkeit Dateien aus dem
+      laufenden Anwenderprogramm  IPADS.PRG  auf Diskette zu sichern.
+
+      Unter Punkt 1 (bzw. 2) wird die Datenbankdatei  LIT.DBF  auf dem
+      Laufwerk A: (bzw. B:) und unter Punkt 3 die recherchierten Daten
+      in Form einer Literaturliste  SUCHE.TXT  gesichert.
+      Eine Sicherheitskopie (Backup) der Datenbankdatei  LIT.DBF  sollte
+      nach Eingabe neuer Daten auf jeden Fall  i m m e r  erfolgen.
+
+      Anmerkung:
+      ----------
+      Die temporaeren Suchdateien (SUCH1.DBF bzw. SUCH2.DBF bzw. TEMP.DBF
+      und die zugehoerigen DBT-Dateien) koennen bei Bedarf auf DOS-Ebene
+      ebenfalls gesichert werden, um sie spaeter erneut zu bearbeiten.
+      Allerdings sollten sie dann umbenannt werden, da IPADS.PRG diese
+      Dateinamen verwendet und beim Programmstart (IPADS.BAT) die Dateien
+      automatisch Åberschreibt.
+
+
+                     Hilfsbildschirm 8 : HILFE
+                     -------------------------
+
+
+      Unter Punkt 1 sind die Hilfsbildschirme (dieser Programmpunkt)
+      zum IPADS-Literaturverwaltungsprogramm einzeln abrufbar.
+
+      Unter Punkt 2 wird die Hilfefunktion  HELP  von  dBASE III Plus
+      aufgerufen, die ausfÅuehrliche Informationen zur Benutzung der
+      Datenbank bereithaelt. Durch DrueÅcken der Escape-Taste <ESC> gelangt
+      man zurÅueck in das Literaturverwaltungsprogramm IPADS.
+
+
+                     Hilfsbildschirm 9 : ASSIST
+                     --------------------------
+
+      Bei Aufruf dieser Programmoption wird die dBASE-Benutzeroberflaeche
+      ASSIST aktiviert, welche eine MenÅfÅuehrung aller dBASE-Befehle zur
+      VerfÅgung stellt.
+
+      So lassen sich zum Beispiel mit Hilfe von  ASSIST  komplexere
+      Suchkriterien und VerknÅuepfungen realisieren, wie sie in den
+      Standard-Recherchekriterien (AUTOR und TITEL&KEY) zur VerfueÅgung
+      stehen.
+
+      Bei Aufruf von ASSIST ist Vorsicht geboten, da das Anwenderprogramm
+      IPADS.PRG  verlassen wird. (Diese Programmoption sollte nur von
+      'erfahrenen' Datenbankanwendern aufgerufen werden...)
+
+      Soll anschliessend in der Literaturverwaltung fortgefahren werden,
+      so  m u ss  ASSIST  mit der Escape-Taste <ESC> verlassen werden.
+
+
+
+**********************************************************************
+*                                                                    *
+* Program..: IPADS.PRG                                               *
+* Author...: Thomas Fabula, Zi.408, Tel.:73-3469                     *
+* Datum....: 14.01.88                                                *
+* Notiz....: Copyright (c) 1988, Institut fuer Angewandte Physik     *
+* Bemerkung:                     der Universitaet Bonn               *
+*                                                                    *
+**********************************************************************
+*            Literaturverwaltung fÅuer Physik Abstracts               *
+*            verwendete Dateien:                                     *
+*            IPADS.BAT     -  Batchdatei auf DOS-Ebene               *
+*            IPADS.PRG     -  dBASE-Programmdatei                    *
+*            IPADS.PRG     -  dBASE-Programmdatei                    *
+*            LIT.DBF       -  Literaturdatenbank                     *
+*            LIT.FMT       -  Formatdatei                            *
+*            LISTE.FMT     -  Formatdatei zum Editieren              *
+*            LISTn.FMT     -  Formatdatei zu SUCHn.DBF               *
+*            SUCH1.DBF     -  temp. Suchdatei Autoren                *
+*            SUCH2.DBF     -  temp. Suchdatei Kewords                *
+*            SUCH3.DBF     -  temp. Suchdatei Titel                  *
+*            TEMP.DBF      -  temp. Arbeitsdatei                     *
+*            SUCH3.DBF     -  temp. Suchdatei Titel                  *
+**********************************************************************
