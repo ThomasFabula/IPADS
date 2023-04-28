@@ -14,17 +14,15 @@ Benutzerhinweise
 
 
 
-			ùI - Institut f¸r Angewandte Physik
+			I - Institut f√ºr Angewandte Physik
 
-			ùP ñ Physik
+			P ‚Äì Physik
 
-			ùA ñ Abstracts
+			A ‚Äì Abstracts
 
-			ùD ñ Dokumentations
+			D ‚Äì Dokumentations
 
-			ùS - System
-
-
+			S - System
 
 
 
@@ -32,24 +30,10 @@ Benutzerhinweise
 
 
 
+(C) 1988 Institut f√ºr Angewandte Physik der Universit√§t Bonn
 
-
-
-
-
-
-
-
-
-
-
-
-
-(C) 1988 Institut f¸r Angewandte Physik der Universit‰t Bonn
-?
 
 Inhaltsverzeichnis
-
 
 
 
@@ -71,7 +55,7 @@ Inhaltsverzeichnis
 	6.	Liste der Forschungsgebiete
 
 
-	7.	Liste der benˆtigten Dateien
+	7.	Liste der ben√∂tigten Dateien
 
 
 	8.	Quelltexte der Programme 
@@ -80,73 +64,73 @@ Inhaltsverzeichnis
 1.Einleitung
 
 
-Die ‹berlegungen, die zu dieser Literatur-Datenbank gef¸hrt haben...
+Die √úberlegungen, die zu dieser Literatur-Datenbank gef√ºhrt haben...
 
-Um effizient mit wissenschaftlichen Publikationen arbeiten zu kˆnnen, ist 
-es u.a. notwendig, sie ¸berschaubar und nach bestimmten Gebieten 
+Um effizient mit wissenschaftlichen Publikationen arbeiten zu k√∂nnen, ist 
+es u.a. notwendig, sie √ºberschaubar und nach bestimmten Gebieten 
 einzusortieren. Der Zugriff auf bestimmte Literaturstellen sollte schnell 
-und unter verschiedenen Auswahlkriterien (Recherche) erfolgen kˆnnen. 
-Dieses ist bei Karteikastensystemen nur bedingt gegeben. Ein groﬂer 
+und unter verschiedenen Auswahlkriterien (Recherche) erfolgen k√∂nnen. 
+Dieses ist bei Karteikastensystemen nur bedingt gegeben. Ein gro√üer 
 Nachteil ergibt sich, falls z.B. mehrere solcher Systeme vereinigt 
-(mergen) werden sollen oder das Katalogisierungssystem selbst ge‰ndert 
-werden soll. Hierf¸r bietet sich die Verwendung einer PC-gest¸tzten 
+(mergen) werden sollen oder das Katalogisierungssystem selbst ge√§ndert 
+werden soll. Hierf√ºr bietet sich die Verwendung einer PC-gest√ºtzten 
 Datenbank an: 
 
 
-Die Struktur, also Anzahl und Inhalt der Felder, kann jederzeit ver‰ndert 
-und erweitert werden und somit neuen Gegebenheiten angepaﬂt werden. Der 
+Die Struktur, also Anzahl und Inhalt der Felder, kann jederzeit ver√§ndert 
+und erweitert werden und somit neuen Gegebenheiten angepa√üt werden. Der 
 bis dahin geleistete Arbeitsaufwand an Erfassung von Literaturstellen 
-wird ùnicht hinf‰llig.
+wird nicht hinf√§llig.
 
 
-Die Schnelligkeit der rechnergest¸tzen Verwaltung kommt bei grˆﬂeren 
-Datenbest‰nden bei Recherche und Sortieren dem Benutzer entgegen.
+Die Schnelligkeit der rechnergest√ºtzen Verwaltung kommt bei gr√∂√üeren 
+Datenbest√§nden bei Recherche und Sortieren dem Benutzer entgegen.
 
 
-Einmal bereits erfaﬂte Literaturstellen kˆnnen beliebig mit anderen 
+Einmal bereits erfa√üte Literaturstellen k√∂nnen beliebig mit anderen 
 Literaturdatenbanken (z.B.: aus anderen Forschungsgebieten) 'gemergt' 
-werden. Somit ist eine dezentrale Literaturerfassung mˆglich und 
+werden. Somit ist eine dezentrale Literaturerfassung m√∂glich und 
 erleichtert die Ersterfassung und die laufenden Erweiterungen der 
 Datenbank erheblich. Das Programm und die Literaturdatenbank sind somit 
-nicht an einen PC-Arbeitsplatz gebunden. Mehrere Mitarbeiter kˆnnen 
-unabh‰ngig voneinander gleichzeitig IPADS benutzen.
+nicht an einen PC-Arbeitsplatz gebunden. Mehrere Mitarbeiter k√∂nnen 
+unabh√§ngig voneinander gleichzeitig IPADS benutzen.
 
 
-Das Arbeiten mit der Datenbank wird durch die einfache Men¸f¸hrung und 
+Das Arbeiten mit der Datenbank wird durch die einfache Men√ºf√ºhrung und 
 aufgrund der ausreichend vorhandenen Dokumentation zu dBASE erleichtert.
 
 Das Programm verwaltet beliebig viele Literaturstellen, wobei die 
-Kapazit‰t lediglich durch den verwendeten Festplattenspeicher begrenzt 
-ist. So entspricht 10 MB belegte Festplattenspeicherkapazit‰t ca. 16.000 
+Kapazit√§t lediglich durch den verwendeten Festplattenspeicher begrenzt 
+ist. So entspricht 10 MB belegte Festplattenspeicherkapazit√§t ca. 16.000 
 Literaturstellen. Das Programm ist in der Programmiersprache von dBASE 
-III PLUS (deutsche Version 1.1) geschrieben und setzt f¸r die Arbeit die 
+III PLUS (deutsche Version 1.1) geschrieben und setzt f√ºr die Arbeit die 
 interaktiven Funktionen (EDIT, APPEND, BROWSE)von dBASE voraus. Neben den 
-fest vorgegebenen Programmpunkten (Datens‰tze anh‰ngen, ‰ndern, 
+fest vorgegebenen Programmpunkten (Datens√§tze anh√§ngen, √§ndern, 
 auflisten, Autoren- und Stichwort-Recherchen, etc.) kann aufgrund der 
 Benutzung von dBASE-ASSIST jede beliebige Recherche- und 
 Sortierkombination erfolgen.
 
-Eine Compilierung des Programms (Clipper) kann zu einem sp‰teren 
+Eine Compilierung des Programms (Clipper) kann zu einem sp√§teren 
 Zeitpunkt erfolgen, falls sich das Literatursystem in dieser Form in 
-Praxi 'bew‰hrt' hat und auf die Interaktivit‰t von dBASE verzichtet 
-werden kann. Durch die Compilierung wird eine erhˆhte 
-Ausf¸hrungsgeschwindigkeit des Programms erreicht, die bei Sortier- und 
-Suchvorg‰ngen entscheidend zum Tragen kommt.
-?
+Praxi 'bew√§hrt' hat und auf die Interaktivit√§t von dBASE verzichtet 
+werden kann. Durch die Compilierung wird eine erh√∂hte 
+Ausf√ºhrungsgeschwindigkeit des Programms erreicht, die bei Sortier- und 
+Suchvorg√§ngen entscheidend zum Tragen kommt.
+
 2.Hinweise zur Benutzung von IPADS
 
 
-Im Folgenden werden Eingaben die vom Benutzer ¸ber die Tastatur erfolgen 
-m¸ssen in spitzen Klammern <...> angegeben. Eine genaue Beschreibung der 
+Im Folgenden werden Eingaben die vom Benutzer √ºber die Tastatur erfolgen 
+m√ºssen in spitzen Klammern <...> angegeben. Eine genaue Beschreibung der 
 Datenbankfelder findet sich in Kapitel 4.
 
 
 Eingabe:
 Die Eingabe der Autorenliste (Feld: AUTOREN) und der Zeitschrift (Feld: 
-ZEITSCHRFT) muﬂ in der Form erfolgen, wie sie sp‰ter in einer 
+ZEITSCHRFT) mu√ü in der Form erfolgen, wie sie sp√§ter in einer 
 Literaturliste zitiert werden sollen. Handelt es sich beim Artikel um 
-keine Verˆffentlichung (sondern: Proceeding, Diss., Habil., etc.), so 
-m¸ssen die beiden Datenbankfelder entsprechend ausgef¸llt 
+keine Ver√∂ffentlichung (sondern: Proceeding, Diss., Habil., etc.), so 
+m√ºssen die beiden Datenbankfelder entsprechend ausgef√ºllt 
 werden. Beispielsweise:
 
        Arbeit: V.Name, Thesis, Ort 1988
@@ -163,13 +147,13 @@ Das Standardformat der Eingabe sieht wie folgt aus:
 	
        Beispiel: X.Meier, Z.Schulz, Phys.Rev.Lett.91,3045 (1993)
 
-Die Eingabe der Daten sollte in Normalschrift (also keine Groﬂschrift) 
-erfolgen. Bei den Recherchen wird automatisch nach Groﬂ- und Kleinschrift 
+Die Eingabe der Daten sollte in Normalschrift (also keine Gro√üschrift) 
+erfolgen. Bei den Recherchen wird automatisch nach Gro√ü- und Kleinschrift 
 gesucht und nicht mehr unterschieden.
 
-Im ABSTRACT-Feld sollte das Abstract der Verˆffentlichung bzw. eine 
+Im ABSTRACT-Feld sollte das Abstract der Ver√∂ffentlichung bzw. eine 
 Kurzzusammenfassung (ein paar Zeilen) eingetragen werden. Im Feld 
-ANMERKUNG kˆnnen sonstige (persˆnliche) Angaben zum Artikel gemacht 
+ANMERKUNG k√∂nnen sonstige (pers√∂nliche) Angaben zum Artikel gemacht 
 werden.
 
 
@@ -180,15 +164,14 @@ Erweiterung sollte nur mit Absprache der anderen Mitbenutzer erfolgen.
 
 Pflege:
 
-Eine Liste der KEYWORDs sollte in regelm‰ﬂigen Abst‰nden ausgelegt und 
+Eine Liste der KEYWORDs sollte in regelm√§√üigen Abst√§nden ausgelegt und 
 aktualisiert werden, ebenso eine "Papierliste" des Datenbankinhalts. 
 Hierbei gibt es zwei Formate:
 
-Kurzliste:	K‹RZEL, ZEITSCHRFTﬁ
+Kurzliste:	K√úRZEL, ZEITSCHRFT√û
 	
-ausf¸hrliche Liste: K‹RZEL, GEBIET, SUBGEBIET, TITEL, AUTOREN, ZEITSCHRFT
+ausf√ºhrliche Liste: K√úRZEL, GEBIET, SUBGEBIET, TITEL, AUTOREN, ZEITSCHRFT
 				(siehe hierzu auch Kapitel 3).
-
 
 
 
@@ -197,10 +180,10 @@ Fehler:
 
 Bei Auftreten eines Fehlers innerhalb des dBASE-Programms IPDAS.PRG, kann 
 nach der Fehlermeldung (Abbruch, Ignorieren, oder Unterbrechen?) mit der 
-Eingabe von ù<I> fortgefahren werden.
+Eingabe von <I> fortgefahren werden.
 
-Falls man durch einen Fehler auf dBASE-Ebene zur¸ckgeworfen wird 
-(.Promptzeichen), so kann durch Eingabe von ù<do ipads> das 
+Falls man durch einen Fehler auf dBASE-Ebene zur√ºckgeworfen wird 
+(.Promptzeichen), so kann durch Eingabe von <do ipads> das 
 Literaturprogramm erneut gestartet werden.
 
 
@@ -208,63 +191,63 @@ Literaturprogramm erneut gestartet werden.
 Programmbenutzung:
 
 
-Programmpunkt 1 : ANHƒNGEN
+Programmpunkt 1 : ANH√ÑNGEN
 
-F¸r die Neueingabe von Daten (Artikel) steht die Standard≠Eingabemaske 
-des dBASE-Interpreters zur Verf¸gung. Die neu eingegebenen Daten werden 
-an die bestehende Datenbank angeh‰ngt und beim Verlassen des 
-Programmteils auf Wunsch nach dem Feld K‹RZEL sortiert und indiziert 
+F√ºr die Neueingabe von Daten (Artikel) steht die Standard¬≠Eingabemaske 
+des dBASE-Interpreters zur Verf√ºgung. Die neu eingegebenen Daten werden 
+an die bestehende Datenbank angeh√§ngt und beim Verlassen des 
+Programmteils auf Wunsch nach dem Feld K√úRZEL sortiert und indiziert 
 (LIT.NDX). Bevor man eine neue Literaturstelle eingibt, sollte anhand der 
 Listen (bzw. mit Programmpunkt 3 : LISTE) kontrolliert werden, ob ein 
 entsprechender Eintrag bereits vorhanden ist.
 
 
 Um die Felder zu bearbeiten stehen neben den Pfeiltasten die Wordstar 
-Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur Verf¸gung.
+Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur Verf√ºgung.
 
-Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> geˆffnet und 
-mit <Ctrl-End> geschlossen. Hier l‰ﬂt  sich ein beliebiger Text (max. 
+Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> ge√∂ffnet und 
+mit <Ctrl-End> geschlossen. Hier l√§√üt  sich ein beliebiger Text (max. 
 1024 Zeichen) eingeben. Die Escape-Taste <ESC> bricht die Eingabe ab, die 
-Daten werden dann  ùn i c h t   abgespeichert. Das Abspei≠chern der neuen 
+Daten werden dann  n i c h t   abgespeichert. Das Abspei¬≠chern der neuen 
 Daten erfolgt indem man eine neue Eingabemaske erreicht (PgDown bzw. 
-<RETURN>) oder ù<Ctrl-W> f¸r Speichern eingibt.
+<RETURN>) oder <Ctrl-W> f√ºr Speichern eingibt.
 
-Mit der  <F1> - Funktionstaste l‰ﬂt  sich der Hilfsbildschirm am oberen 
+Mit der  <F1> - Funktionstaste l√§√üt  sich der Hilfsbildschirm am oberen 
 Bildschirmrand jederzeit ein- bzw. ausblenden.
 
 
-Programmpunkt 2 : ƒNDERN
+Programmpunkt 2 : √ÑNDERN
 
 
-Um einen bestehenden Datensatz zu ‰ndern, gibt man dessen Nummer 
+Um einen bestehenden Datensatz zu √§ndern, gibt man dessen Nummer 
 (Recordnummer) ein. Falls diese nicht genau bekannt ist, so kann mit 
-Hilfe der PgUp- bzw. PgDown-Tasten die Datenbank durchgebl‰ttert und der 
-jeweilige Artikel gesucht werden. (Hierbei ist allerdings ùVorsicht 
-geboten, da ƒnderungen der Feldinhalte abgespeichert werden.) 
+Hilfe der PgUp- bzw. PgDown-Tasten die Datenbank durchgebl√§ttert und der 
+jeweilige Artikel gesucht werden. (Hierbei ist allerdings Vorsicht 
+geboten, da √Ñnderungen der Feldinhalte abgespeichert werden.) 
 
-Um die Felder zu bearbeiten stehen (wie unter Programm≠punkt ANHƒNGEN) 
+Um die Felder zu bearbeiten stehen (wie unter Programmpunkt ANH√ÑNGEN) 
 neben den Pfeiltasten die Wordstar Editierbefehle (Ctrl-A,S,D,F,G,Y,T,X) 
-zur Verf¸gung. Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-
-Home> geˆffnet und mit <Ctrl-End> geschlossen. Hier l‰ﬂt sich ein 
+zur Verf√ºgung. Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-
+Home> ge√∂ffnet und mit <Ctrl-End> geschlossen. Hier l√§√üt sich ein 
 beliebiger Text (max. 1024 Zeichen) eingeben. Die Escape-Taste <ESC> 
-bricht die Eingabe ab, die Daten werden dann  ùn i c h t  abgespeichert. 
+bricht die Eingabe ab, die Daten werden dann  n i c h t  abgespeichert. 
 Das Abspeichern der neuen Daten erfolgt indem man eine neue Eingabemaske 
-erreicht (PgDown bzw. <RETURN>) oder ù<Ctrl-W> (Speichern) eingibt.
+erreicht (PgDown bzw. <RETURN>) oder <Ctrl-W> (Speichern) eingibt.
 
 
 Programmpunkt 3 : LISTE
 
-Um einen schnellen ‹berblick ¸ber den Inhalt der Datenbank zu erhalten, 
-ist es mˆglich sie in Form einer Liste darstellen zu lassen. Hierbei 
-werden folgende Datenbankfelder angezeigt:	K‹RZEL, GEBIET, SUBGEBIET, 
+Um einen schnellen √úberblick √ºber den Inhalt der Datenbank zu erhalten, 
+ist es m√∂glich sie in Form einer Liste darstellen zu lassen. Hierbei 
+werden folgende Datenbankfelder angezeigt:	K√úRZEL, GEBIET, SUBGEBIET, 
 AUTOREN, ZEITSCHRFT, TITEL, JAHRGANG.
 
 Mit Hilfe der Pfeiltasten bzw. PgUp und PgDown kann die Liste nach vorn 
-und hinten durchgebl‰ttert, mit Hilfe der Tastenkombination <Ctrl-
+und hinten durchgebl√§ttert, mit Hilfe der Tastenkombination <Ctrl-
 Pfeiltasten> links und rechts verschoben werden. Die Feldinhalte (bis auf 
-JAHRGANG) sind hierbei nicht ‰nderbar.
+JAHRGANG) sind hierbei nicht √§nderbar.
 
-Mit der <F1> - Funktionstaste l‰ﬂt sich der Hilfsbildschirm am oberen 
+Mit der <F1> - Funktionstaste l√§√üt sich der Hilfsbildschirm am oberen 
 Bildschirmrand jederzeit ein- bzw. ausblenden.
 
 
@@ -273,18 +256,18 @@ Programmpunkt 4 : AUTOR
 Unter Auswahlpunkt 1 kann eine AUTOREN-Recherche erfolgen, nachdem man 
 den Autorennamen oder einen Teilstring eingegeben hat. Die recherchierten 
 Daten werden bei der Suche auf dem Bildschirm einzeilig dargestellt, 
-anschlieﬂend in der tempor‰ren Datei SUCH1.DBF zwischengespeichert. 
+anschlie√üend in der tempor√§ren Datei SUCH1.DBF zwischengespeichert. 
 
 Unter Auswahlpunkt 2 kann die recherchierte Suchdatei SUCH1.DBF erneut 
 angeschaut werden.
 
-Unter Auswahlpunkt 3 kann eine bereits fr¸her recherchierte, externe 
+Unter Auswahlpunkt 3 kann eine bereits fr√ºher recherchierte, externe 
 Datei eingelesen und angezeigt werden. Hierzu wird der Dateiname (evtl. 
 mit Laufwerksangabe,z.B.: A:RECH.DBF) eingegeben.
 
 Anmerkung:
 
-Die externe DBF-Datei (einschlieﬂlich zugehˆriger DBT-Datei) muﬂ auf 
+Die externe DBF-Datei (einschlie√ülich zugeh√∂riger DBT-Datei) mu√ü auf 
 Diskette bzw. Platte vorhanden sein und die  gleiche  Datenbankstruktur 
 wie  LIT.DBF  besitzen, sonst erfolgt eine Fehlermeldung.
 
@@ -292,12 +275,12 @@ wie  LIT.DBF  besitzen, sonst erfolgt eine Fehlermeldung.
 Programmpunkt 5 : TITEL&KEY
 
 Unter Auswahlpunkt 1 kann eine kombinierte Recherche nach den Feldern 
-TITEL und KEYWORDn (n = 1 - 8) erfolgen. Hier≠zu ist ein Suchbegriff bzw. 
+TITEL und KEYWORDn (n = 1 - 8) erfolgen. Hierzu ist ein Suchbegriff bzw. 
 ein Teilstring einzugeben. Die recherchierten Daten werden bei der Suche 
-auf dem Bild≠schirm dargestellt, abh‰ngig davon, ob sie im Feld TITEL 
-oder bei den Stichworten (KEYWORD) enthalten sind. Anschlieﬂend werden 
-sie in der tempor‰ren Datei öSUCH2.DBF zwischengespeichert. Der 
-Suchbegriff wird automatisch nach Klein- oder Groﬂschrift recherchiert.
+auf dem Bild¬≠schirm dargestellt, abh√§ngig davon, ob sie im Feld TITEL 
+oder bei den Stichworten (KEYWORD) enthalten sind. Anschlie√üend werden 
+sie in der tempor√§ren Datei ≈°SUCH2.DBF zwischengespeichert. Der 
+Suchbegriff wird automatisch nach Klein- oder Gro√üschrift recherchiert.
 
 Unter Auswahlpunkt 2 kann die recherchierte Suchdatei SUCH2.DBF erneut 
 angeschaut werden.
@@ -305,14 +288,14 @@ angeschaut werden.
 
 Programmpunkt 6 : GENERIEREN
 
-Dieser Programmpunkt bietet die Mˆglichkeit anhand der recherchierten 
+Dieser Programmpunkt bietet die M√∂glichkeit anhand der recherchierten 
 Daten (Artikel) eine Literaturliste SUCHE.TXT  zu generieren, die im 
 ASCII-Format auf Diskette bzw. Platte gespeichert wird. Somit ist die 
 Datei SUCHE.TXT von beliebigen Texteditoren (z.B. WordPerfect) 
-anschlieﬂend weiter bearbeitbar.
+anschlie√üend weiter bearbeitbar.
 
-Es kˆnnen verschiedene Recherchen (AUTOR- und TITEL&KEYWORD-Recherche) 
-zusammengefasst werden, sofern sie bereits durchgef¸hrt wurden und in 
+Es k√∂nnen verschiedene Recherchen (AUTOR- und TITEL&KEYWORD-Recherche) 
+zusammengefasst werden, sofern sie bereits durchgef√ºhrt wurden und in 
 einer  Literaturliste abgespeichert werden. 
 
 Das Format der Literaturliste setzt sich aus den beiden Datenbankfeldern 
@@ -325,7 +308,7 @@ Ein typisches Feld hat z.B. die Form:
 
 Programmpunkt 7 : SICHERN
 
-Dieser Programmpunkt bietet die Mˆglichkeit Dateien aus dem laufenden 
+Dieser Programmpunkt bietet die M√∂glichkeit Dateien aus dem laufenden 
 Anwenderprogramm  IPADS.PRG  auf Diskette zu sichern.
 
 Unter Auswahlpunkt 1 (bzw. 2) werden die Datenbankdateien LIT.DBF  und 
@@ -334,12 +317,12 @@ recherchierten Daten in Form der Literaturliste  SUCHE.TXT  gesichert.
 Eine Sicherheitskopie (Backup) der Datenbankdateien  LIT.DB?  sollte nach 
 Eingabe neuer Daten auf jeden Fall immer erfolgen.
 
-Anmerkung: Die tempor‰ren Suchdateien (SUCHn.DBF bzw. öTEMP.DBF und die 
-zugehˆrigen DBT-Dateien) kˆnnen bei Bedarf auf DOS≠Ebene ebenfalls 
-gesichert werden, um sie sp‰ter erneut zu bearbeiten (s. Programmpunkt 4 
-: AUTOR, Auswahl 3). Aller≠dings sollten sie dann umbenannt werden, da 
+Anmerkung: Die tempor√§ren Suchdateien (SUCHn.DBF bzw. ≈°TEMP.DBF und die 
+zugeh√∂rigen DBT-Dateien) k√∂nnen bei Bedarf auf DOS-Ebene ebenfalls 
+gesichert werden, um sie sp√§ter erneut zu bearbeiten (s. Programmpunkt 4 
+: AUTOR, Auswahl 3). Allerdings sollten sie dann umbenannt werden, da 
 IPADS.PRG diese Dateinamen verwendet und beim Programmstart IPADS.BAT) 
-die Dateien automatisch ¸berschreibt.
+die Dateien automatisch √ºberschreibt.
 
 
 Programmpunkt 8 : HILFE
@@ -348,73 +331,72 @@ Unter Auswahlpunkt 1 sind die Hilfsbildschirme zum IPADS-
 Literaturverwaltungsprogramm einzeln abrufbar.
 
 Unter Auswahlpunkt 2 wird die Hilfefunktion  HELP  von dBASE III PLUS 
-aufgerufen, die ausf¸hrliche Informationen zur Benutzung der Datenbank 
-bereith‰lt. Durch Dr¸cken der Escape-Taste <ESC> gelangt man zur¸ck in 
+aufgerufen, die ausf√ºhrliche Informationen zur Benutzung der Datenbank 
+bereith√§lt. Durch Dr√ºcken der Escape-Taste <ESC> gelangt man zur√ºck in 
 das Literaturverwaltungsprogramm IPADS.
 
 
 Programmpunkt 9 : ASSIST
 
 
-Bei Aufruf dieser Programmoption wird die dBASE-Benutzeroberfl‰che ASSIST 
-aktiviert, welche eine Men¸f¸hrung aller dBASE-Befehle zur Verf¸gung 
+Bei Aufruf dieser Programmoption wird die dBASE-Benutzeroberfl√§che ASSIST 
+aktiviert, welche eine Men√ºf√ºhrung aller dBASE-Befehle zur Verf√ºgung 
 stellt.
 
 So lassen sich zum Beispiel mit Hilfe von  ASSIST  komplexere 
-Suchkriterien und Verkn¸pfungen realisieren, wie sie in den Standard-
-Recherchekriterien (AUTOR und TITEL & KEY) zur Verf¸gung stehen.
+Suchkriterien und Verkn√ºpfungen realisieren, wie sie in den Standard-
+Recherchekriterien (AUTOR und TITEL & KEY) zur Verf√ºgung stehen.
 
-Bei Aufruf von ASSIST ist ùVorsicht geboten, da das Anwenderprogramm  
+Bei Aufruf von ASSIST ist Vorsicht geboten, da das Anwenderprogramm  
 IPADS.PRG  verlassen wird. (Diese Programmoption sollte nur von 
 'erfahrenen' Datenbankanwendern aufgerufen werden...)
 
-Soll anschlieﬂend in der Literaturverwaltung fortgefahren werden, so ùmuﬂ 
+Soll anschlie√üend in der Literaturverwaltung fortgefahren werden, so ¬ùmu√ü 
 ASSIST  mit der Escape-Taste <ESC> verlassen werden.
 
 3. Wartungs-Programm  SERVICE.PRG
 
 
 Das dBASE-Programm SERVICE stellt die zur Pflege der Literatur-Datenbank 
-LIT.DBF benˆtigte Optionen zur Verf¸gung. Es sollte in regelm‰ﬂigen 
-Abst‰nden aktiviert werden, um die Listen des Datenbankinhalts und der 
+LIT.DBF ben√∂tigte Optionen zur Verf√ºgung. Es sollte in regelm√§√üigen 
+Abst√§nden aktiviert werden, um die Listen des Datenbankinhalts und der 
 Stichworte zu aktualisieren bzw. die Datenbank zu erweitern. Hierbei ist 
-es mˆglich eine Vereinigungsmenge von zwei beliebigen Datenbanken zu 
-bilden (mergen), ohne daﬂ Doppeleintr‰ge vorkommen:
+es m√∂glich eine Vereinigungsmenge von zwei beliebigen Datenbanken zu 
+bilden (mergen), ohne da√ü Doppeleintr√§ge vorkommen:
 
 
 Unter Punkt 1 wird die Literaturdatenbank  LIT.DBF  eingelesen, indiziert 
-(LIT.NDX) und nach dem Feld  K‹RZEL alphabetisch sortiert. Dieser 
+(LIT.NDX) und nach dem Feld  K√úRZEL alphabetisch sortiert. Dieser 
 Programmpunkt sollte nach einer Erweiterung der Datenbank (s. Punkt 4) 
 aufgerufen werden, um die Indexdatei  LIT.NDX  zu aktualisieren.
 
 
 Unter Punkt 2 wird der gesamte Inhalt der Literaturdatenbank  LIT.DBF  in 
 eine ASCII-Datei abgespeichert. Man hat die Wahl zwischen einer kurzen 
-(ARTIKEL.TXT) und einer ausf¸hrlichen (LIT.LST) Datenbankliste. Die Datei  
-LIT.LST wird anschlieﬂend vom Konvertierprogramm LITCONV zu LIT.ADI  
+(ARTIKEL.TXT) und einer ausf√ºhrlichen (LIT.LST) Datenbankliste. Die Datei  
+LIT.LST wird anschlie√üend vom Konvertierprogramm LITCONV zu LIT.ADI  
 konvertiert. Die Dateien ARTIKEL.TXT und LIT.ADI sind dann mit beliebigen 
 Texteditoren (z.B.: WordPerfect)bearbeitbar. 
 
 
-Unter Punkt 3 wird eine Liste aller Stichworteintr‰ge generiert. Die 
-ASCII-Datei  KEYWORDS.TXT  enth‰lt alle Eintr‰ge der Datenbankfelder 
+Unter Punkt 3 wird eine Liste aller Stichworteintr√§ge generiert. Die 
+ASCII-Datei  KEYWORDS.TXT  enth√§lt alle Eintr√§ge der Datenbankfelder 
 KEYWORDn (n=1-8) alphabetisch sortiert. Kommt ein Stichwort doppelt vor, 
-so wird es nur ùeinmal  aufgef¸hrt. 
+so wird es nur ¬ùeinmal  aufgef√ºhrt. 
 
 
-Unter Punkt 4 werden zwei Datenbanken zur Literatur-Daten≠bank  LIT.DBF  
-zusammengefasst (mergen), doppelte Eintr‰ge werden nur ùeinmal 
+Unter Punkt 4 werden zwei Datenbanken zur Literatur-Datenbank  LIT.DBF  
+zusammengefasst (mergen), doppelte Eintr√§ge werden nur einmal 
 aufgenommen. 
 
 
 
-?
 4. Struktur der Datenbank:	(Datei: LIT.DBF)
 
-Die Literaturdatenbank enth‰lt folgende Felder:
+Die Literaturdatenbank enth√§lt folgende Felder:
 
-	   Feld  Feldname    Typ         	L‰nge
-		 1  K‹RZEL      Zeichen        6 
+	   Feld  Feldname    	Typ         L√§nge
+		 1  K√úRZEL      Zeichen        6 
 		 2  TITEL       Zeichen      100 
 		 3  GEBIET      Zeichen       20 
 		 4  SUBGEBIET   Zeichen       20 
@@ -435,32 +417,32 @@ Die Literaturdatenbank enth‰lt folgende Felder:
 		19  ABSTRACT    MEMO          10 
 	 ** Gesamt **                      599 
 
-Der Gesamtspeicherbedarf eines Literatureintrages betr‰gt mit der 
-zugehˆrigen Textdatei (MEMO-Feld) ca. 650 Byte auf dem Festspeichermedium 
+Der Gesamtspeicherbedarf eines Literatureintrages betr√§gt mit der 
+zugeh√∂rigen Textdatei (MEMO-Feld) ca. 650 Byte auf dem Festspeichermedium 
 Diskette bzw. Platte. 
 
-K‹RZEL: in dieses Feld wird eine Kurzform, bestehend aus den ersten drei 
-Buchstaben des Nachnamens des ersten Au≠tors und der Jahreszahl 
-eingetragen. Evtl. kann eine In≠dizierung mit kleinen Buchstaben 
+K√úRZEL: in dieses Feld wird eine Kurzform, bestehend aus den ersten drei 
+Buchstaben des Nachnamens des ersten Au¬≠tors und der Jahreszahl 
+eingetragen. Evtl. kann eine In¬≠dizierung mit kleinen Buchstaben 
 (a,b,c,...) erfolgen, falls mehrere Publikationen des selben Autors im 
-betref≠fenden Jahr erschienen sind (z.B.: ùEin18a).
+betreffenden Jahr erschienen sind (z.B.: ¬ùEin18a).
 
-TITEL: in dieses Feld wird der Originaltitel der Verˆffentlichung 
+TITEL: in dieses Feld wird der Originaltitel der Ver√∂ffentlichung 
 eingetragen. 
 
 GEBIET - SUBGEBIET:
 
 In diese beiden Felder sind die Forschungsgebiete und die entsprechenden 
-Untergebiete laut Liste (s. Kapitel 6) ein≠zutragen. Sollte die Grˆﬂe der 
-Datenbank im Laufe der Zeit zu groﬂ werden, so kann sie in einzelne 
-Datenbanken zer≠legt nach dem Oberbegriff GEBIET geordnet werden. Dies 
+Untergebiete laut Liste (s. Kapitel 6) ein¬≠zutragen. Sollte die Gr√∂√üe der 
+Datenbank im Laufe der Zeit zu gro√ü werden, so kann sie in einzelne 
+Datenbanken zerlegt nach dem Oberbegriff GEBIET geordnet werden. Dies 
 kommt auch dem Benutzer entgegen, der meistens nur ein Spezialgebiet 
-bearbeitet und bei Literaturrecherchen nicht 'unnˆtig lange suchen' 
-mˆchte.
+bearbeitet und bei Literaturrecherchen nicht 'unn√∂tig lange suchen' 
+m√∂chte.
 
 AUTOREN: in dieses Feld werden die Autorennamen (mit vorangestelltem 
-Vornamen: Z.Yogib‰r) eingetragen. Sollte die Anzahl der Autoren die 
-Feldl‰nge ¸berschreiten, so ist darauf zu achten, daﬂ der 'Gruppenchef' 
+Vornamen: Z.Yogib√§r) eingetragen. Sollte die Anzahl der Autoren die 
+Feldl√§nge √ºberschreiten, so ist darauf zu achten, da√ü der 'Gruppenchef' 
 (meistens der Letztzitierte) ebenfalls eingetragen wird.
 
 ZEITSCHRFT: Zeitschrift, Journal bzw. Buch.
@@ -472,17 +454,17 @@ JAHRGANG: Erscheinungsjahr des Artikels.
 PACS: falls bekannt, sollte hier die physics-abstract-classification-
 system Nummer eingetragen werden.
 
-ANMERKUNG: hier kˆnnen persˆnliche Bemerkungen bez¸glich des Artikels 
+ANMERKUNG: hier k√∂nnen pers√∂nliche Bemerkungen bez√ºglich des Artikels 
 eingetragen werden.
 
-KEYWORDn: in diese acht Felder (n=1-8) sollten mˆglichst viele, treffende 
+KEYWORDn: in diese acht Felder (n=1-8) sollten m√∂glichst viele, treffende 
 Stichworte eingetragen werden, die aber nicht im Rahmen des Titels 
-bereits enthalten sind. Umso grˆﬂer sind die Chancen bei einer sp‰teren 
+bereits enthalten sind. Umso gr√∂√üer sind die Chancen bei einer sp√§teren 
 Recherche eine allumfassende Information zu bekommen.
 
 ABSTRACT: dieses Feld kann bis zu 1024 Zeichen enthalten und eignet sich 
-somit gut f¸r die Eingabe des Abstracts bzw. sonstiger Kommentare und 
-Informationen zu der betref≠fenden Literaturstelle.
+somit gut f√ºr die Eingabe des Abstracts bzw. sonstiger Kommentare und 
+Informationen zu der betreffenden Literaturstelle.
 
 
 
@@ -490,7 +472,7 @@ Informationen zu der betref≠fenden Literaturstelle.
 
 
 
-Diese Literaturliste stellt ein Beispiel f¸r eine AUTOREN-Recherche mit 
+Diese Literaturliste stellt ein Beispiel f√ºr eine AUTOREN-Recherche mit 
 dem Teilstring <rtm> dar:
 
 
@@ -500,7 +482,7 @@ R.Blatt,W.Ertmer,J.L.Hall Acta Physica Austriaca 57,151(1985)
 
 R.Blatt,W.Ertmer,P.Zoller,J.L.Hall Phys.Rev.A34,3022(1986)
 
-W.Ertmer,R.Blatt,J.L.Hall,M.Zhu öPhys.Rev.Lett.54,996(1985)
+W.Ertmer,R.Blatt,J.L.Hall,M.Zhu ≈°Phys.Rev.Lett.54,996(1985)
 
 W.Ertmer,S.Penselin Metrologia 22,195 (1986)
 
@@ -508,76 +490,76 @@ W.Ertmer Physica Scripta 36,306 (1987)
 
 W.Ertmer Phys.Bl.43,Nr.10 (1987)
 
-?
+
 6. Liste der Forschungsgebiete
 
 
-Im Folgenden sind die Forschungsgebiete und die zugehˆri≠gen Untergebiete 
-aufgelistet. Die Begriffe (englisch, GROﬂ und ùfett geschrieben) sind in 
+Im Folgenden sind die Forschungsgebiete und die zugeh√∂rigen Untergebiete 
+aufgelistet. Die Begriffe (englisch, GRO√ü und fett geschrieben) sind in 
 die Datenbankfelder (GEBIET und SUB-GEBIET) entsprechend (klein) 
-einzutragen. Besteht bei der Zuordnung des Artikels Unklarheit bez¸glich 
-der Zugehˆrigkeit, so kann er jeweils unter der allgemeinen Rubrik 
+einzutragen. Besteht bei der Zuordnung des Artikels Unklarheit bez√ºglich 
+der Zugeh√∂rigkeit, so kann er jeweils unter der allgemeinen Rubrik 
 GENERAL eingetragen werden. Eine Doppeleintragung eines Artikels ist 
-unbedingt zu vermeiden, um die Daten≠bank nicht unnˆtig aufzubl‰hen. 
+unbedingt zu vermeiden, um die Daten¬≠bank nicht unn√∂tig aufzubl√§hen. 
 Durch eine entsprechende Wahl der Stichworte (KEYWORDn, n=1-8) kann eine 
 Suche unter einem "anderem" Forschungsgebiet erleichtert werden.
 
 
-Diese Liste ist zu einem sp‰teren Zeitpunkt beliebig er≠weiterbar, um 
+Diese Liste ist zu einem sp√§teren Zeitpunkt beliebig er¬≠weiterbar, um 
 andere Arbeitsgebiete der Physik abzudecken. 
 
 
 LASER COOLING  ( & Trapping)
-		- GENERAL			(Allg.: Manipulation von Atomstrahlen)
+		- GENERAL		(Allg.: Manipulation von Atomstrahlen)
 		- DEFLECTION		(Atomstrahlablenkung)
 		- FOCUSSING 		(Kollimation, "Channeling")
 		- DECELERATION		(Abbremsung)
 		- OPTICAL TRAPS		(Neutrale Atomfallen)
-		- MAGNETIC TRAPS		(Magnet- & Hybridfallen)
-		- THEORY 			(Theorie der Lichtkr‰fte)
+		- MAGNETIC TRAPS	(Magnet- & Hybridfallen)
+		- THEORY 		(Theorie der Lichtkr√§fte)
 
 LASER TECH
-		- GENERAL			(sonstiges)
-		- DYE LASERS		(alles ¸ber Farbstofflaser...)
+		- GENERAL		(sonstiges)
+		- DYE LASERS		(alles √ºber Farbstofflaser...)
 		- DIODE LASERS		(Halbleiterlaser)
 		- HeNe-LASERS 
 		- PULSED LASERS		(Excimer, Nd:YAG, etc.)
 		- IR LASERS
 		- SOLID STATE LASERS
-		- FIBERS			(Allg. Glasfasertechnik)
+		- FIBERS		(Allg. Glasfasertechnik)
 		- LIGHT BEAMS		(Gauss' Strahlen, cavities, Linsen,)
 		- STABILIZATION		(Regelungen, Elektronik)
-		- DATA ACQUISITION	(Meﬂwerterfassung, -verarbeitung)
+		- DATA ACQUISITION	(Me√üwerterfassung, -verarbeitung)
 		- FREQU. STANDARDS	(Metrologie, "Ramsey")
 		- OPTOELECTRONICS
 		- VUV GENERATION
-		- NONLIN. OPTICS		(Technik, Experimente)
+		- NONLIN. OPTICS	(Technik, Experimente)
 		- MODULATION
 		- ULTRA SHORT PULSES	(Mode-Locking,etc.)
 
 
 QUANTUM OPTICS				(Theorie allgemein)
-		- GENERAL			(Quantum Jumps, Photonstatistik)
-		- FWM				(4-Wave-Mixing)
+		- GENERAL		(Quantum Jumps, Photonstatistik)
+		- FWM			(4-Wave-Mixing)
 		- SQUEEZING
-		- NONLIN. OPTICS		(Verdopplung, etc.)
+		- NONLIN. OPTICS	(Verdopplung, etc.)
 
 ATOMIC PHYSICS
 		- GENERAL
 		- FS			(Exp. & Parametrisierung)
 		- HFS			(Exp. & Parametrisierung)
 		- IS			(Exp. & Parametrisierung)
-		- SPECTROSCOPY	(Spektroskopiemethoden)
+		- SPECTROSCOPY		(Spektroskopiemethoden)
 		- RYDBERG
-		- AB METHODS	(Atomstrahl Technik)
+		- AB METHODS		(Atomstrahl Technik)
 		- TARGETS		(Polarisierte Targets, COSY, etc.)
-		- TABBS		(Tabellen, etc.)
-		- FUND. TESTS	(Fund. Tests: QED, Allg.Rel. Theorie)
+		- TABBS			(Tabellen, etc.)
+		- FUND. TESTS		(Fund. Tests: QED, Allg.Rel. Theorie)
 
 
 ION TRAPS
 		- GENERAL		(auch Theorie)
-		- TECH		(Technik und Experimente)
+		- TECH			(Technik und Experimente)
 		- COOLING
 		- SPECTROSCOPY
 		- METROLOGY
@@ -593,26 +575,26 @@ LASER MEDICINE
 
 CLUSTER
 		- GENERAL		(auch Theorie)
-		- HANDLING	(Produktion, Detektierung)
-		- EXP		(Technik, Experimente)
-		- APPLICATIONS	(Anwendung der Experimente)
+		- HANDLING		(Produktion, Detektierung)
+		- EXP			(Technik, Experimente)
+		- APPLICATIONS		(Anwendung der Experimente)
 
 SURFACE
 		- GENERAL		(auch Theorie)
 		- EXP. TECH		(Analyse)
 
 
-?
-7. Liste der benˆtigten Dateien
+
+7. Liste der ben√∂tigten Dateien
 
 
 Literaturverwaltungsprogramm IPADS
 
-	IPADS.BAT     -  Batchdatei auf DOS-Ebene
-	IPADS.PRG     -  dBASE-Programmdatei
-	IPADS.*	   -  Textdateien zur Erkl‰rung
-       IPADS.WP	   -  Dieser Text
-       HILFE.PRG     -  dBASE-Programmdatei (Hilfemodul)
+	IPADS.BAT     	-  Batchdatei auf DOS-Ebene
+	IPADS.PRG     	-  dBASE-Programmdatei
+	IPADS.*	   	-  Textdateien zur Erkl√§rung
+        IPADS.WP	-  Dieser Text
+        HILFE.PRG     -  dBASE-Programmdatei (Hilfemodul)
 	LIT.DBF       -  Literaturdatenbank
 	LIT.DBT       -  Literaturdatenbank (MEMO-Felder)
 	LIT.FMT       -  Formatdatei
@@ -625,36 +607,36 @@ Literaturverwaltungsprogramm IPADS
 	SUCHT.DB?     -  temp. Suchdateien (TITEL)
 	TEMP.DB?      -  temp. Arbeitsdateien der Literaturliste
 
-Die Datei TEMP enth‰lt die Eintr‰ge der Dateien SUCH1 îund SUCH2.
+Die Datei TEMP enth√§lt die Eintr√§ge der Dateien SUCH1 ‚Äùund SUCH2.
 
 
-Wartungsprogramm SERVICE:ï
+Wartungsprogramm SERVICE:
 
 	SERVICE.BAT  -  DOS-Stapeldatei (Batch)
 	SERVICE.PRG  -  dBASE-Programmdatei
 	KEYPACK.COM  -  Filter-Programm, um doppelte 
-       Stichworteintragungen zu verhindern.
+        Stichworteintragungen zu verhindern.
 
 	KEYPACK.PAS  -  Turbo-Pascal Quelldatei (s.o.)
-	FILTER.TXT   -  tempor‰re Stichwortdatei
+	FILTER.TXT   -  tempor√§re Stichwortdatei
 	ARTIKEL.TXT  -  Kurzliste aller Artikel
-	LIT.LST	  -  ausf. Liste aller Artikel (s. LITCONV)
+	LIT.LST	 	 -  ausf. Liste aller Artikel (s. LITCONV)
 	KEYWORDS.TXT -  alphabetisch sortierte Stichwortdatei
 	TEMPKEY.DBF  -  Ursprungsdatei (Structure-Init.)
 
 
-tempor‰re Dateien:
+tempor√§re Dateien:
 
-	KEYn.DBF     -  tempor‰re dBASE-Einzelstichwortdatei
-	KEYn.TXT     -  tempor‰re Text-Einzelstichwortdatei
-	WORT.DBF     -  tempor‰re Gesamt-Stichwortdatei
+	KEYn.DBF     -  tempor√§re dBASE-Einzelstichwortdatei
+	KEYn.TXT     -  tempor√§re Text-Einzelstichwortdatei
+	WORT.DBF     -  tempor√§re Gesamt-Stichwortdatei
 	KEYSORT.DBF  -  temp. sortierte Gesamt-Stichwortdatei
 
 
 Sonstige Programme (Konvertierung):
 
-LITCONV.PAS  - Konvertiert die ausf¸hrliche Literaturliste
-       LIT.LST in die Textdatei LIT.ADI
+	LITCONV.PAS  - Konvertiert die ausf√ºhrliche Literaturliste
+       	LIT.LST in die Textdatei LIT.ADI
 				(Funktionsweise wie DB3-ADI.PAS)
 	ADI-DB3.PAS  - Konvertierprogramm von ADIMENS nach dBASE
 				(Eingabedatei: *.MRG, Ausgabedatei: *.TXT)
@@ -662,10 +644,10 @@ LITCONV.PAS  - Konvertiert die ausf¸hrliche Literaturliste
 				(Eingabedatei: *.LST, Ausgabedatei: *.ADI)
 
 Die entsprechenden *.COM-Dateien sind die mit Turbo-Pascal 3.0 
-¸bersetzten, lauff‰higen Programme.
+√ºbersetzten, lauff√§higen Programme.
+
+
 8. Quelltexte der Programme:
-
-
 
 
 	A.	Literaturverwaltungsprogramm IPADS.PRG
@@ -691,5 +673,4 @@ Die entsprechenden *.COM-Dateien sind die mit Turbo-Pascal 3.0
 
 
        H.	Konvertierungsprogramm DB3-ADI.PAS
-
 
