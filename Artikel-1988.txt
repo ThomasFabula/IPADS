@@ -46,7 +46,7 @@ Bjo78 Phys.Rev.Lett.41,1361 (1978)
 Bjo80 Opt.Lett.5,111 (1980) 
 Bjo80 Comm.At.Mol.Phys. 10, 31 (1980) 
 Bjo81 Phys.Rev. A23, 491 (1981) 
-Bla Laser cooled and trapped atoms",W.D.Phillips,ed., 
+Bla Laser cooled and trapped atoms", W.D.Phillips,ed., 
 Bla84 Prog.Quant.Electr.8,237-248 (1984) 
 Bla84 Prog.Quant Electr. 8, 237 (1984) 
 Bla85 Acta Physica Austriaca 57,151-156 (1985) 
@@ -57,7 +57,7 @@ Boi88 J.de.Phys. France 49, 885 (1988)
 Bol85 Phys.Rev.Lett. 54, 1000 (1985) 
 Bos87 Physica Scripta. Vol. 36, 730-736 (1987) 
 Bou87 Z.Phys.D 7,129 (1987) 
-Bre88 J.Phys.E:Sci.Instrum.21(1988)502-503 
+Bre88 J.Phys.E:Sci.Instrum.21 (1988) 502-503 
 Bri87 J.Phys.D:Appl.Phys.20,1584 (1987) 
 Bur79 Appl.Phys.20,141 (1979) 
 Bur88 Opt.Comm. 66, 59 (1988) 
@@ -68,7 +68,7 @@ Chu85 Phys.Rev.Lett. 55, 48 (1985)
 Chu86a Phys.Rev.Lett. 57, 314 (1986) 
 Chu86b Opt.Lett. 11, 73 (1986)  
 Chu87 Elsevier Science Publishers 
-Chu88 in: Atomic physics 10, H.Narumi,I.Shimamura (eds.), (Elsevie 
+Chu88 in: Atomic physics 10, H.Narumi,I.Shimamura (eds.), (Elsevier 
 Clo87 Laser Spectroscopy VIII, S.87 
 Clo87 "Fundamentals in Quantum Optics II" 
 Clo87a in: "Laser Spectroscopy VIII", Eds. W.Persson,S.Svanberg, 87 
@@ -111,7 +111,7 @@ Gel86a Physica 137A, 502 (1986)
 Gel86b J.Phys.A: Math.Gen. 19,2201 (1986) 
 Ger24 Annalen der Physik,IV,74,45 (1924) 
 Ger88 Phys.Rev. A37, 1502 (1988) 
-Gil88 J.Phys.E:Sci.Instrum.21(1988)213-218 
+Gil88 J.Phys.E:Sci.Instrum.21 (1988) 213-218 
 Gio88 Opt.Comm. 67, 287 (1988) 
 Gol88 Phys.Rev. A37, 119 (1988) 
 Goo88 Rev.Sci.Instrum.59(2),372(1988) 
@@ -121,13 +121,13 @@ Gri81 Phys.Lett. 86A, 136 (1981)
 Gri84 Sov.Phys.JETP 59, 56 (1984) 
 Grig85 Sov.Phys.JETP 62, 477 (1985) 
 Hae75 Opt.Comm. 13, 68 (1975) 
-Haeb85 AIP Conference Proc,No.128,ed.P.Schwandt,H.O.Meyer,USA,1985 
+Haeb85 AIP Conference Proc,No.128,ed.P.Schwandt,H.O.Meyer,USA, 1985 
 Ham88 J.Phys.E:Sci.Insrum.21(1988)80-83 
 Han88 Rev.Sci.Instrum.59(4), 655(1988) 
 Hau88 J.Appl.Phys.63,628 (19889 
 Heer80 KfK 3062,Nov. 1980 
 Hof88 Opt.Lett.13,102 (1988) 
-Hol88 J.Phys.E:Sci.Instrum.21(1988)384-388 
+Hol88 J.Phys.E:Sci.Instrum.21 (1988) 384-388 
 How87 J.Phys.E:Sci.Instrum.20,1518 (1987) 
 Jac73 Opt.Comm. 8, 163 (1973) 
 Jac76 in:"High resolution spectroscopy",Ed.K.Shimoda,Springer 
@@ -196,7 +196,8 @@ Nap88 Opt.Comm. 66, 83 (1988)
 Nem88 Appl.Opt.27,1833 (1988) 
 Nie88 Rev.Sci.Instr. 59, 368 (1988) 
 Per88 J.Phys.E:Sci.Instrum.21(1988)195-196 
-Phi in LASER SPECTROSCOPY VI, Eds. H.P.Weber,W.Luthy, Springer Phi82 Phys.Rev.Lett. 48, 596 (1982) 
+Phi in LASER SPECTROSCOPY VI, Eds. H.P.Weber, W.Luthy, Springer 
+Phi82 Phys.Rev.Lett. 48, 596 (1982) 
 Phi83 "Laser cooled and trapped atoms" 2, 1751 (1985) 
 Phi87 Sci.Am., 36, (March 1987) 
 Piq72 Opt.Comm. 5, 402 (1972) 
@@ -239,7 +240,7 @@ Tan88 Opt.Lett.15,357 (1988)
 Tho82 Phys.Rev.Lett. 48,867 (1982) 
 Van88 Physica Scripta T22, 228 (1988) 
 Ver85 Rev.Sci.Instr. 56, 62 (1985) 
-Wal88 J.Phys.B 21, str.&Meth.in Phys.Res.a267,22 (1988) 
+Wal88 J.Phys.B 21, str.& Meth.in Phys.Res.a267,22 (1988) 
 Wat86 Opt.Lett.11,291 (1986) 
 Wat86b Opt.Comm. 57, 45 (1986) 
 Web87 Opt.Comm.62,124 (1987) 
