@@ -1,6 +1,6 @@
-Felddefinition fÅr das Format : C:LIT.scr
+Felddefinition f√ºr das Format : C:LIT.scr
 
-Seite Row  Col  Datenbank    Feld  	     Typ 	  LÑnge  Dez
+Seite Row  Col  Datenbank    Feld  	        Typ 	        L√§nge     Dez
   1    2   10    LIT        TITEL          Zeichen          100 
   FUNCTION S68
   1   16   13    LIT        ZEITSCHRFT     Zeichen           40 
@@ -25,7 +25,7 @@ Seite Row  Col  Datenbank    Feld  	     Typ 	  LÑnge  Dez
   1    7   12    LIT        KOAUTOR3       Zeichen           20 
   1    6   51    LIT        KOAUTOR2       Zeichen           20 
   1    7   51    LIT        KOAUTOR4       Zeichen           20 
-  1    1   10    LIT        KöRZEL         Zeichen            6 
+  1    1   10    LIT        K≈°RZEL         Zeichen            6 
   1    1   27    LIT        AUTOR          Zeichen           20 
   1    4   12    LIT        ANMERKUNG      Zeichen           60 
   FUNCTION S56
@@ -35,7 +35,7 @@ Seite Row  Col  Datenbank    Feld  	     Typ 	  LÑnge  Dez
 
 Seite :  1 
 
- KöRZEL  :XXXXXX    AUTOR :XXXXXXXXXXXXXXXXXXXX     GEBIET :XXXXXXXXXXXXXXXXXX
+ K≈°RZEL  :XXXXXX    AUTOR :XXXXXXXXXXXXXXXXXXXX     GEBIET :XXXXXXXXXXXXXXXXXX
  TITEL   :XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
  ANMERKUNG: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -55,4 +55,3 @@ Seite :  1
 
 
  ABSTRACT : XXXX
-
