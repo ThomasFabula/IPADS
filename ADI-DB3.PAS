@@ -1,7 +1,7 @@
 { ADI-DB3   :  Konvertierprogramm fuer IPADS
 
 Programm konvertiert Literaturdaten von ST-ADIMENS in dBASE III+  lesbare ASCII-Dateien (delimited with #).
-Die Eingabedatei mu· die Endung .MRG tragen (z.B.: name.MRG) und folgendes Format besitzen:
+Die Eingabedatei mu√° die Endung .MRG tragen (z.B.: name.MRG) und folgendes Format besitzen:
 
 1. Zeile : Beliebiges ASCII-Zeichen  (z.B.: = )
 2. Zeile : Kuerzel                   (max.   6 Zeichen)
@@ -14,7 +14,8 @@ Die Eingabedatei mu· die Endung .MRG tragen (z.B.: name.MRG) und folgendes Forma
 9. Zeile : Keywords                  (max.  30 Zeichen)
 10.Zeile : Leerzeile
 
-Anschliessend folgen beliebig viele Eintraege (Records) nach obigen Format. Die konvertierte Textdatei  name.TXT  laesst sich dann von dBASE III aus, nachdem eine Datenbank mit der entsprechenden Struktur (siehe IPADS: LIT.DBF) angewaehlt wurde, mit folgendem Befehl einlesen:
+Anschliessend folgen beliebig viele Eintraege (Records) nach obigen Format. Die konvertierte Textdatei  name.TXT  laesst sich dann von dBASE III aus, 
+nachdem eine Datenbank mit der entsprechenden Struktur (siehe IPADS: LIT.DBF) angewaehlt wurde, mit folgendem Befehl einlesen:
 
       APPEND FROM  name  DELIMITED WITH #
 
