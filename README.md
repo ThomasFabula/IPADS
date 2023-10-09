@@ -2,7 +2,7 @@
 
 ## Synonym IPADS 
 - IAP Physics Abstracts Documentation System 
-- Literatur-Verwaltung
+- Literatur-Verwaltung / Literature management software
 - https://www.iap.uni-bonn.de/de
 
 ## dBase
