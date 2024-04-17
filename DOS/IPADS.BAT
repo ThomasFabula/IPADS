@@ -1,7 +1,7 @@
 echo=off
 cls
 rem  ***********************************
-rem  Stapeldatei fr Literaturverwaltung
+rem  Stapeldatei fÃ¼r Literaturverwaltung
 rem  *****    I   P   A   D   S    *****
 rem  ***********************************
 type ipads.sgn
