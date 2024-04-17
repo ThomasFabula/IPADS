@@ -46,4 +46,4 @@
 @ 22,  1  SAY "Abstract:"
 @ 22, 12  GET  SUCH2->ABSTRACT
 @ 22, 24  SAY "Ctrl-Home,-End,Pfeile,PgUp,PgDown,RETURN / ESC=Abbruch"
-
+
