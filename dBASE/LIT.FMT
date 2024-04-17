@@ -46,4 +46,3 @@
 @ 22,  1  SAY "Abstract:"
 @ 22, 12  GET  LIT->ABSTRACT
 @ 22, 24  SAY "Pfeile,PgUp,PgDown,Ctrl-Home,-End,RETURN / ESC=Abbruch"
-
