@@ -2,18 +2,18 @@
 * Program..: SERVICE.PRG  -  Programmverbund IPADS                 *                          *
 * Author...: Thomas Fabula                                         *
 * Datum....: 11.06.88                                              *
-* Notiz....: Copyright (c) 1988, Institut fr Angewandte Physik    *
-*                                Universit„t Bonn                  *
-* Letzte nderung:  7.09.88                                        *
+* Notiz....: Copyright (c) 1988, Institut fÃ¼r Angewandte Physik    *
+*                                UniversitÃ¤t Bonn                  *
+* Letzte Ã„nderung:  07.09.1988                                     *
 *                                                                  *
 * Bemerkung: Dieses Programm stellt die Serviceroutinen zur        *
-*            Pflege der Literatur-Datenbank  LIT.DBF  Verfgung.   *
-*            Es sollte in regelm„áigen Abst„nden aktiviert werden, *
+*            Pflege der Literatur-Datenbank  LIT.DBF  VerfÃ¼gung.   *
+*            Es sollte in regelmâ€Ã¡igen Abstâ€nden aktiviert werden, *
 *            um den Datenbankinhalt und die Stichwortliste zu      *
 *            aktualisieren bzw. die Datenbank zu erweitern.        *
-*            Hierbei ist es m”glich eine Vereinigungsmenge von     *
+*            Hierbei ist es mâ€glich eine Vereinigungsmenge von     *
 *            zwei beliebigen Datenbanken zu bilden (mergen),       *
-*            ohne daá Doppeleintr„ge vorkommen. Das Unterschei-    *
+*            ohne daÃ¡ DoppeleintrÃ¤ge vorkommen. Das Unterschei-    *
 *            dungskriterium ist das Datenbankfeld  ZEITSCHRFT.     *
 *                                                                  *
 * Dateien:   SERVICE.PRG  -  diese dBASE-Programmdatei             *
@@ -21,11 +21,11 @@
 *            KEYPACK.COM  -  Filter-Programm, um doppelte          *
 *                            Stichworteintragungen zu verhindern.  *
 *            KEYPACK.PAS  -  Turbo-Pascal Quelldatei (s.o.)        *
-*            FILTER.TXT   -  tempor„re Stichwortdatei              *
+*            FILTER.TXT   -  temporÃ¤re Stichwortdatei              *
 *            ARTIKEL.TXT  -  Textdatei aller Artikel               *
 *            KEYWORDS.TXT -  alphabetisch sortierte Stichwortdatei *
 *            TEMPKEY.DBF  -  Ursprungsdatei (Structure-Init.)      *
-*            LITCONV.COM  -  Konvertierungsprogramm, um ausfhr-   *
+*            LITCONV.COM  -  Konvertierungsprogramm, um ausfÃ¼hr-   *
 *                            liche Literaturliste  LIT.ADI  zu     *
 *                            zu generieren.                        *
 *            LITCONV.PAS  -  Turbo-Pascal Quelldatei (s.o.)        *
@@ -34,13 +34,13 @@
 *            ADI-DB3.PAS  -  Turbo-Pascal Quelldatei (s.o.)        *
 *            DB3-ADI.COM  -  Konvertierungsprogramm, um dBASE III+ *
 *                            Literaturliste (*.LST) nach ADIMENS   *
-*                            transferieren zu k”nnen               *
+*                            transferieren zu kâ€nnen               *
 *            DB3-ADI.PAS  -  Turbo-Pascal Quelldatei (s.o.)        *
 *                                                                  *
-*            tempor„re Dateien:                                    *
-*            KEYn.DBF     -  tempor„re dBASE-Einzelstichwortdatei  *
-*            KEYn.TXT     -  tempor„re Text-Einzelstichwortdatei   *
-*            WORT.DBF     -  tempor„re Gesamt-Stichwortdatei       *
+*            temporâ€re Dateien:                                    *
+*            KEYn.DBF     -  temporÃ¤re dBASE-Einzelstichwortdatei  *
+*            KEYn.TXT     -  temporÃ¤re Text-Einzelstichwortdatei   *
+*            WORT.DBF     -  temporÃ¤re Gesamt-Stichwortdatei       *
 *            KEYSORT.DBF  -  temp. sortierte Gesamt-Stichwortdatei *
 ********************************************************************
 
@@ -53,8 +53,8 @@ USE lit INDEX lit
 
 DO WHILE .T.
 
-   * ---Zentrierte Anzeige der Menauswahl auf dem Bildschirm,
-   *    Rahmen zeichnen und šberschrift ausgeben.
+   * ---Zentrierte Anzeige der MenÂauswahl auf dem Bildschirm,
+   *    Rahmen zeichnen und Ãœberschrift ausgeben.
    CLEAR
    CLEAR GETS
    @ 2,0 TO 14,79 DOUBLE
@@ -66,7 +66,7 @@ DO WHILE .T.
    @  8,27 SAY [3. Stichwortliste erstellen]
    @  9,27 SAY [4. LIT-Datenbank  erweitern]
    @ 10,27 SAY [5. Hilfe  zu Servicepunkten]
-   @ 11,27 SAY [ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ]
+   @ 11,27 SAY [===========================]
    @ 12,27 SAY '0. Service-Programm beenden'
    STORE 5 TO selectnum
    @ 15,33 SAY " Auswahl    "
@@ -88,7 +88,7 @@ DO WHILE .T.
          @ 8,20 SAY 'Sortieren der Literatur-Datenbank  LIT.DBF !'
          ?
          ?
-         SORT ON krzel TO sort
+         SORT ON kÂrzel TO sort
          CLOSE DATABASES
          @ 9,20 SAY 'Dateien auf Platte umbenennen & umordnen !'
          ERASE lit.dbf
@@ -100,10 +100,10 @@ DO WHILE .T.
          USE lit
          ERASE lit.ndx
          @ 10,20 SAY 'Indizieren der Literatur-Datenbank  LIT.DBF !'
-         INDEX ON krzel TO lit
+         INDEX ON kÂrzel TO lit
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste fÂr weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
@@ -113,11 +113,11 @@ DO WHILE .T.
          SET TALK OFF
          USE lit INDEX lit
          @  0,25 SAY [Datenbankliste erstellen:]
-         @  1,25 SAY [ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ]
+         @  1,25 SAY [=========================]
          @  6,23 SAY [1. Kurze        Datenbankliste]
-         @  7,23 SAY [2. Ausfhrliche Datenbankliste]
-         @  8,23 SAY [ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ]
-         @  9,23 SAY '0. Zur     Hauptauswahl zurck'
+         @  7,23 SAY [2. AusfÃ¼hrliche Datenbankliste]
+         @  8,23 SAY [==============================]
+         @  9,23 SAY '0. Zur     Hauptauswahl zurÃ¼ck'
          STORE 1 TO xx
          @ 11,30 SAY " Auswahl    "
          @ 11,39 GET xx PICTURE "9" RANGE 0,2
@@ -130,23 +130,23 @@ DO WHILE .T.
          CASE xx = 1
            @ 15,15 SAY 'Inhaltsverzeichnis der Literatur-Datenbank  LIT.DBF'
            @ 16,15 SAY 'wird in die ASCII-Datei  ARTIKEL.TXT  geschrieben.'
-           @ 18,15 SAY 'Dateiformat:    KšRZEL, ZEITSCHRFT'
+           @ 18,15 SAY 'Dateiformat:    KÃœRZEL, ZEITSCHRFT'
            ERASE artikel.txt
-           COPY TO artikel FIELDS krzel,zeitschrft delimited with blank
+           COPY TO artikel FIELDS kÃ¼rzel,zeitschrft delimited with blank
 
          CASE xx = 2
            @ 15,15 SAY 'Inhaltsverzeichnis der Literatur-Datenbank  LIT.DBF'
            @ 16,15 SAY 'wird in die ASCII-Datei  LIT.LST  geschrieben.'
            @ 17,15 SAY 'Dateiformat (delimited with #):'
-           @ 19,15 SAY 'KšRZEL, GEBIET, SUBGEBIET, TITEL, AUTOREN, ZEITSCHRFT'
+           @ 19,15 SAY 'KÃœRZEL, GEBIET, SUBGEBIET, TITEL, AUTOREN, ZEITSCHRFT'
            ERASE lit.lst
-           COPY TO lit.lst FIELDS krzel,gebiet,subgebiet,titel,autoren,zeitschrft delimited with #
-           * Anschlieáend konvertieren mit LITCONV
+           COPY TO lit.lst FIELDS kÃ¼rzel,gebiet,subgebiet,titel,autoren,zeitschrft delimited with #
+           * AnschlieÃŸend konvertieren mit LITCONV
          ENDCASE
 
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste fÃ¼r weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
@@ -156,7 +156,7 @@ DO WHILE .T.
          clear
          use lit
          @ 0,25 SAY 'Erstellen der Stichwortliste:'
-         @ 1,25 SAY 'ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ'
+         @ 1,25 SAY '============================='
          ?
          ?
          ? 'Kopieren der Stichworte in Einzeldateien...:'
@@ -212,13 +212,13 @@ DO WHILE .T.
          ERASE keywords.txt
          copy to keywords.txt delimited with blank
 
-         * Die Datei  KEYWORDS.TXT  enth„lt noch Doppeleintr„ge,
+         * Die Datei  KEYWORDS.TXT  enthÃ¤lt noch DoppeleintrÃ¤ge,
          * welche vom Turbo-Pascal Programm  KEYPACK.COM  heraus-
          * gefiltert werden.
 
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste fÂr weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
@@ -230,7 +230,7 @@ DO WHILE .T.
          USE lit INDEX lit
 
          @ 1,25 SAY 'Zusammenfassen von Datenbanken:'
-         @ 2,25 SAY 'ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ'
+         @ 2,25 SAY '==============================='
 
          @ 4,0  SAY 'Inhalt der Literatur-Datenbank  LIT.DBF  wird erweitert.'
          @ 5,0  SAY 'Hierzu bitte eine Datenbank eingeben...'
@@ -251,15 +251,15 @@ DO WHILE .T.
           APPEND FROM &datei
           ERASE ssort.ndx
           ? 'Indizieren der Datenbank.................:'
-          INDEX ON krzel TO ssort
+          INDEX ON kÃ¼rzel TO ssort
           ERASE ssort.dbf
           ERASE ssort.dbt
           ? 'Sortieren der Datenbank..................:'
-          SORT ON krzel TO ssort
+          SORT ON kÃ¼rzel TO ssort
           USE ssort
           SET TALK OFF
           GO TOP
-          ? 'Suchen der Doppeleintr„ge................:'
+          ? 'Suchen der DoppeleintrÃ¤ge................:'
           DO WHILE .NOT. EOF()
              STORE zeitschrft TO alt
              SKIP
@@ -269,10 +269,10 @@ DO WHILE .T.
                 doppel = doppel + 1
              ENDIF
           ENDDO
-          ? 'Eliminieren der Doppeleintr„ge...........:'
+          ? 'Eliminieren der DoppeleintrÃ¤ge...........:'
           PACK
-          ? 'Anzahl der neuen Datens„tze              : ',reccount()
-          ? 'Anzahl der Doppeleintr„ge                : ',doppel,' gel”scht'
+          ? 'Anzahl der neuen DatensÃ¤tze              : ',reccount()
+          ? 'Anzahl der DoppeleintrÃ¤ge                : ',doppel,' gelÃ¶scht'
           ERASE lit.dbf
           ERASE lit.dbt
           ? 'Dateien auf Platte umbenennen & umordnen :'
@@ -285,7 +285,7 @@ DO WHILE .T.
 
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste fÃ¼r weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
@@ -295,29 +295,29 @@ DO WHILE .T.
          CLEAR
          TEXT
                                  H i l f e:
-                                 ÄÄÄÄÄÄÄÄÄÄ
+                                 ==========
     Unter Punkt 1 wird die Literaturdatenbank  LIT.DBF  eingelesen und
-    nach dem Feld  KšRZEL  alphabetisch sortiert.
+    nach dem Feld  KÃœRZEL  alphabetisch sortiert.
 
     Unter Punkt 2 wird der gesamte Inhalt der Literaturdatenbank LIT.DBF
     in eine ASCII-Datei abgespeichert. Man hat die Wahl zwischen einer
-    kurzen (ARTIKEL.TXT) und einer ausfhrlichen (LIT.LST) Datenbankliste.
-    Die Datei  LIT.LST  wird anschlieáend zu  LIT.ADI  konvertiert. Die
+    kurzen (ARTIKEL.TXT) und einer ausfÃ¼hrlichen (LIT.LST) Datenbankliste.
+    Die Datei  LIT.LST  wird anschlieÃŸend zu  LIT.ADI  konvertiert. Die
     Dateien ARTIKEL.TXT und LIT.ADI sind dann mit beliebigen Texteditoren
     (z.B.: WordPerfect) bearbeitbar.
 
-    Unter Punkt 3 wird eine Liste aller Stichworteintr„ge generiert. Die
-    ASCII-Datei  KEYWORDS.TXT  enth„lt alle Eintr„ge der Datenbankfelder
+    Unter Punkt 3 wird eine Liste aller StichworteintrÃ¤ge generiert. Die
+    ASCII-Datei  KEYWORDS.TXT  enthâ€lt alle EintrÃ¤ge der Datenbankfelder
     KEYWORDn (n=1-8) alphabetisch sortiert. Kommt ein Stichwort doppelt
-    vor, so wird es nur  e i n m a l  aufgefhrt.
+    vor, so wird es nur  e i n m a l  aufgefÃ¼hrt.
 
     Unter Punkt 4 werden zwei Datenbanken zur Literatur-Datenbank  LIT.DBF
-    zusammengefaát, doppelte Eintr„ge werden nur  e i n m a l  aufgenommen.
+    zusammengefaÃŸt, doppelte EintrÃ¤ge werden nur  e i n m a l  aufgenommen.
     (W i c h t i g: Vergleichskriterium ist das Datenbankfeld: ZEITSCHRFT)
          ENDTEXT
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste fÃ¼r weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
