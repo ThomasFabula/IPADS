@@ -25,7 +25,7 @@ Seite Row  Col  Datenbank    Feld  	        Typ 	        Länge     Dez
   1    7   12    LIT        KOAUTOR3       Zeichen           20 
   1    6   51    LIT        KOAUTOR2       Zeichen           20 
   1    7   51    LIT        KOAUTOR4       Zeichen           20 
-  1    1   10    LIT        KšRZEL         Zeichen            6 
+  1    1   10    LIT        KÜRZEL         Zeichen            6 
   1    1   27    LIT        AUTOR          Zeichen           20 
   1    4   12    LIT        ANMERKUNG      Zeichen           60 
   FUNCTION S56
