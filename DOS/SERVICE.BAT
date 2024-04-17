@@ -12,4 +12,3 @@ if exist lit.lst litconv
 if exist *.txt dir *.txt/w
 if exist *.adi dir *.adi
 echo=on
-
