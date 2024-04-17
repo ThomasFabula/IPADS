@@ -7,8 +7,8 @@
 @ 17,  0  TO 20, 79    DOUBLE
 @ 21,  0  TO 23, 17    DOUBLE
 @ 21, 22  TO 23, 79    DOUBLE
-@  2,  1  SAY "Krzel:"
-@  2,  9  SAY  SUCH2->KšRZEL
+@  2,  1  SAY "KÃ¼rzel:"
+@  2,  9  SAY  SUCH2->KÃœRZEL
 @  2, 17  SAY "Gebiet:"
 @  2, 25  SAY  SUCH2->GEBIET
 @  2, 47  SAY "Subgebiet:"
