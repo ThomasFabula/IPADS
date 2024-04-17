@@ -40,11 +40,11 @@ H.Weichel,L.S.Pedrotti
 D.J.Wineland,J.C.Bergquist,I.Wayne,J.J.Bollinger,C.H.Manney Phys.Rev.Lett.59,26,2935 (1987)
 M.C.Wu,M.M.Boenke,M.Werner,F.Schiffmann,Y.H.Lo,S.Wang J.Appl.Phys.63,291 (1987)
 S.V.Andreev,V.L.Balykin,V.S.Letokhov,V.G.Minogin Sov.Phys.JETP 55, 828 (1982)
-A.Aspect,E.Arimondo,R.Kaiser,N.Vansteenkiste,C.Cohen-Tannoudi subm. to ›
+A.Aspect,E.Arimondo,R.Kaiser,N.Vansteenkiste,C.Cohen-Tannoudi subm. to √ù
 V.M.Baev,K.Boller,P.E.Toschek Opt.Comm. 66, 225 (1988)
 C.Baker IEEE Spectrum 5, 39 (1968)
 H.J.Baker, P.A.Ellsmore, E.C.Sille J.Phys.E:Sci.Instrum.21(1988)218-224
-V.I.Balykin,V.S.Letokhov,V.I.Mishin J.Exp.and Theor.Phys 80,› (1980), JETP ›
+V.I.Balykin,V.S.Letokhov,V.I.Mishin J.Exp.and Theor.Phys 80,√ù (1980), JETP √ù
 V.I.Balykin,V.S.Letokhov,V.G.Minogin JETP 53, 919 (1981)
 V.O.Balykin,V.S.Letokhov,A.I.Sidorov Opt.Comm.49,248 (1984)
 V.I.Balykin,V.S.Letokhov,A.I.Sidorov Opt.Comm. 49, 248 (1984)
@@ -61,11 +61,11 @@ V.I.Balykin,V.S.Letokhov,Y.B.Ovchinnikov,A.I.Sidorov Phys.Rev.Lett. 60, 2137 (19
 V.I.Balykin,V.S.Letokhov,V.G.Minogin Physica Scripta T22, 119 (1988)
 A.Benner Rev.Sci.Instrum.59(4), 562(1988)
 A.F.Bernhardt Appl.Phys. 9, 19 (1976)
-R.Blatt,W.Ertmer,J.L.Hall ›, 270 (19›)
+R.Blatt,W.Ertmer,J.L.Hall √ù, 270 (19√ù)
 R.Blatt,W.Ertmer,J.L.Hall Acta Physica Austriaca 57,151-156 (1985)
 R.Blatt,W.Ertmer,J.L.Hall subm. Phys.Rev.Lett. (draft!) (1985)
 J.J.Bollinger,J.D.Prestage,W.M.Itano,D.J.Wineland Phys.Rev.Lett. 54, 1000 (1985)
-Ch.Bourauel,W.Rupprecht,S.BÅttgenbach Z.Phys.D 7,129 (1987)
+Ch.Bourauel,W.Rupprecht,S.B¬Åttgenbach Z.Phys.D 7,129 (1987)
 D.J.Brink,T.N.de Kock J.Phys.D:Appl.Phys.20,1584 (1987)
 B.Burghardt,W.Jitschin,G.Meisel Appl.Phys.20,141 (1979)
 S.Chu,M.G.Prentiss,A.E.Cable,J.E.Bjorkholm 
@@ -73,7 +73,7 @@ S.Chu,J.E.Bjorkholm,A.Ashkin,A.Cable Elsevier Science Publishers
 S.Chu,J.E.Bjorkholm,A.Ashkin,A.Cable in: Atomic physics 10, H.Narumi,I.Shimamura (eds.), (Elsevie
 R.J.Cook Phys.Rev. A 21, 268 (1980)
 J.Dalibard,S.Reynaud,C.Cohen-Tannoudji J.Phys.B:At.Mol.Phys. 17, 4577 (1984)
-J.Dalibard,C.Cohen-Tannoudji J.Phys.B › (1984)
+J.Dalibard,C.Cohen-Tannoudji J.Phys.B √ù (1984)
 J.Dalibard,C.Cohen-Tannoudji J.Opt.Soc.Am. B 2, 1707 (1985)
 J.Dalibard,C.Salomon,A.Aspect,A.Heidmann,C.Cohen-Tannoudji Laser Spectroscopy VIII, S.81
 J.Dalibard,A.Heidman,C.Salomon,A.Aspect,H.Metcalf,C.Cohen-Tanoudji in: "Fundamentals of Quantum Optics II",F.Ehlotzky (ed.), 18
@@ -88,7 +88,7 @@ W.Ertmer Phys.Bl.43 (1987) Nr.10
 P.Gill, J.A.Clancy J.Phys.E:Sci.Instrum.21(1988)213-218
 F.A.van Goor, A.Sobolewski Rev.Sci.Instrum.59(2),372(1988)
 P.L.Gould,P.D.Lett,P.S.Julienne,W.D.Phillips,H.R.Thorsheim,J.Weiner Phys.Rev.Lett.60,788 (1988)
-T.W.HÑnsch,A.L.Schawlow Opt.Comm. 13, 68 (1975)
+T.W.H‚Äûnsch,A.L.Schawlow Opt.Comm. 13, 68 (1975)
 M.Hammerich, A.Olafss0on J.Phys.E:Sci.Insrum.21(1988)80-83
 B.Jaduzliwer,G.F.Shen,B.Bederson Phys.Rev. A33, 3792 (1986)
 J.Javanainen Fundamentals in Quantum Optics II
@@ -121,7 +121,7 @@ J.V.Prodan,W.D.Phillips,H.Metcalf Phys.Rev.Lett. 49, 1149 (1982)
 J.V.Prodan,A.Migdall,W.D.Phillips,I.So,H.Metcalf,J.Dalibard Phys.Rev.Lett. 54, 992 (1985)
 Redaktion Physics today 6, 17 (1985)
 Redaktion Physics today 9 ,17 (1986)
-M.Rioux,R.Tremblay,P.A.BÇlanger App. Opt.17,10,1532 (1978)
+M.Rioux,R.Tremblay,P.A.B‚Äölanger App. Opt.17,10,1532 (1978)
 C.Salomon,J.Dalibard,A.Aspect,H.Metcalf,C.Cohen-Tannoudji Phys.Rev.Lett. 59, 1659 (1987)
 C.Salomon,J.Dalibard C.R.Acad.Sci.Paris t306, 1319 (1988)
 R.Schieder,H.Walter,L.Woeste Opt.Comm.5,337 (1972)
@@ -143,4 +143,3 @@ M.C.Wu,M.M.Boenke,M.Werner,F.Schiffmann,Y.H.Lo,S.Wang J.Appl.Phys.63,291 (1987)
 W.Yuzhu et al. Sci.Sin. A27,881 (1983)
 W.Yuzhu,Z.Rufang,Z.Zhiyiao,C.Weiquan,N.Guoquan,Z.Shanyu,W.Changsheng,Z.Weijun Sc.Sin. A 27, 881 (1984)
 T.V.Zueva,V.S.Lethokov,V.G.Minogin Sov.Phys.JETP 54, 38 (1981)
-
