@@ -8,8 +8,8 @@
    @ 2,0 TO 16,79
    @ 3,18 SAY [H I L F E  zu einzelnen IPADS-Programmpunkten]
    @ 4,1 TO 4,78
-   @  5,21 SAY [1. ANHNGEN    -        neuer Datens„tze]
-   @  6,21 SAY [2. NDERN      -  vorhandener Datens„tze]
+   @  5,21 SAY [1. ANHÃ„NGEN    -        neuer DatensÃ¤tze]
+   @  6,21 SAY [2. Ã„NDERN      -  vorhandener DatensÃ¤tze]
    @  7,21 SAY [3. LISTE       -     der Datensatzfelder]
    @  8,21 SAY [4. AUTOR       -     Recherche vornehmen]
    @  9,21 SAY [5. TITEL&KEY   -     Recherche vornehmen]
@@ -17,9 +17,9 @@
    @ 11,21 SAY [7. SICHERN     -           der Datenbank]
    @ 12,21 SAY [8. HILFE       -                aufrufen]
    @ 13,21 SAY [9. ASSISTENT   -       Programm aufrufen]
-   @ 14,21 SAY [ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ]
+   @ 14,21 SAY [========================================]
 
-   @ 15,21 SAY [0. ZURšCK      -        zur Hauptauswahl]
+   @ 15,21 SAY [0. ZURÃœCK      -        zur Hauptauswahl]
    STORE 0 TO hilf
    @ 18,33 SAY "Auswahl :"
    @ 18,43 GET hilf PICTURE "9" RANGE 0,9
@@ -31,44 +31,44 @@
       CASE hilf = 1
            CLEAR
            TEXT
-                     Hilfsbildschirm 1 : ANHNGEN
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     Hilfsbildschirm 1 : ANHÃ„NGEN
+                     ============================
 
-      Fr die Neueingabe von Daten (Artikel) steht die Standard-Eingabe-
-      maske des dBASE-Interpreters zur Verfgung. Die neu eingegebenen Daten
-      werden an die bestehende Datenbank angeh„ngt und beim Verlassen des
-      Programms nach dem Feld KšRZEL indiziert (LIT.NDX). Auf Wunsch k”nnen
-      die Daten alphabetisch nach KšRZEL sortiert werden.
+      FÂr die Neueingabe von Daten (Artikel) steht die Standard-Eingabe-
+      maske des dBASE-Interpreters zur VerfÃ¼gung. Die neu eingegebenen Daten
+      werden an die bestehende Datenbank angehÃ¤ngt und beim Verlassen des
+      Programms nach dem Feld KÃœRZEL indiziert (LIT.NDX). Auf Wunsch kÃ¶nnen
+      die Daten alphabetisch nach KÃœRZEL sortiert werden.
       Um die Felder zu bearbeiten stehen neben den Pfeiltasten die
-      Wordstar Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur Verfgung.
-      Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> ge”ffnet
-      und mit <Ctrl-End> geschlossen. Hier l„át sich ein beliebiger Text
+      Wordstar Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur VerfÃ¼gung.
+      Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> geÃ¶ffnet
+      und mit <Ctrl-End> geschlossen. Hier lÃ¤ÃŸt sich ein beliebiger Text
       (max. 1024 Zeichen) eingeben. Die Escape-Taste <ESC> bricht die Eingabe
       ab, die Daten werden dann  n i c h t  abgespeichert. Das Abspeichern
       der neuen Daten erfolgt indem man eine neue Eingabemaske erreicht
       (PgDown bzw. <RETURN>) oder <Ctrl-W> (Speichern) eingibt.
 
-      Mit der  <F1> - Funktionstaste l„át sich der Hilfsbildschirm am
+      Mit der  <F1> - Funktionstaste lÃ¤ÃŸt sich der Hilfsbildschirm am
       oberen Bildschirmrand jederzeit ein- bzw. ausblenden.
                ENDTEXT
 
       CASE hilf = 2
            CLEAR
            TEXT
-                     Hilfsbildschirm 2 : NDERN
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     Hilfsbildschirm 2 : Ã„NDERN
+                     ==========================
 
-      Um einen bestehenden Datensatz zu „ndern, gibt man dessen Nummer
+      Um einen bestehenden Datensatz zu Ã¤ndern, gibt man dessen Nummer
       (Recordnummer) ein. Falls diese nicht genau bekannt ist, so kann
-      mit Hilfe der PgUp- bzw. PgDown-Tasten die Datenbank durchbl„ttert
+      mit Hilfe der PgUp- bzw. PgDown-Tasten die Datenbank durchblÃ¤ttert
       werden und der jeweilige Artikel gesucht werden.
-      (Hierbei ist allerdings Vorsicht geboten, da nderungen der Feld-
+      (Hierbei ist allerdings Vorsicht geboten, da Ã„nderungen der Feld-
       inhalte abgespeichert werden.)
 
       Um die Felder zu bearbeiten stehen neben den Pfeiltasten die
-      Wordstar Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur Verfgung.
-      Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> ge”ffnet
-      und mit <Ctrl-End> geschlossen. Hier l„át sich ein beliebiger Text
+      Wordstar Editier-Befehle (Ctrl-A,S,D,F,G,Y,T,X) zur VerfÃ¼gung.
+      Das ABSTRACT-Feld wird mit der Tastenkombination <Ctrl-Home> geÃ¶ffnet
+      und mit <Ctrl-End> geschlossen. Hier lÃ¤ÃŸt sich ein beliebiger Text
       (max. 1024 Zeichen) eingeben. Die Escape-Taste <ESC> bricht die Eingabe
       ab, die Daten werden dann  n i c h t  abgespeichert. Das Abspeichern
       der neuen Daten erfolgt indem man eine neue Eingabemaske erreicht
@@ -79,20 +79,20 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 3 : LISTE
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     =========================
 
-      Um einen schnellen šberblick ber den Inhalt der Datenbank zu erhalten,
-      ist es m”glich sie in Form einer Liste darstellen zu lassen.
+      Um einen schnellen Ãœberblick Ã¼ber den Inhalt der Datenbank zu erhalten,
+      ist es mÃ¶glich sie in Form einer Liste darstellen zu lassen.
       Hierbei werden folgende Datenbank-Felder angezeigt:
 
-         KšRZEL, GEBIET, SUBGEBIET, AUTOREN, ZEITSCHRFT, TITEL, JAHRGANG
+         KÃœRZEL, GEBIET, SUBGEBIET, AUTOREN, ZEITSCHRFT, TITEL, JAHRGANG
 
       Mit Hilfe der Pfeiltasten bzw. PgUp und PgDown kann die Liste nach vorn
-      und hinten durchgebl„ttert, mit Hilfe der Tastenkombination <Ctrl-Pfeil-
+      und hinten durchgeblÃ¤ttert, mit Hilfe der Tastenkombination <Ctrl-Pfeil-
       tasten> links und rechts verschoben werden.
-      Die Feldinhalte (bis auf JAHRGANG) sind hierbei nicht „nderbar.
+      Die Feldinhalte (bis auf JAHRGANG) sind hierbei nicht Ã¤nderbar.
 
-      Mit der  <F1> - Funktionstaste l„át sich der Hilfsbildschirm am oberen
+      Mit der  <F1> - Funktionstaste lâ€Ã¡t sich der Hilfsbildschirm am oberen
       Bildschirmrand jederzeit ein- bzw. ausblenden.
                ENDTEXT
 
@@ -100,23 +100,23 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 4 : AUTOR
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     =========================
 
       Unter Programmpunkt 1 kann eine AUTOREN-Recherche erfolgen, nachdem man
       den Autorennamen oder einen Teilstring eingegeben hat. Die recherchierten
       Daten werden bei der Suche auf dem Bildschirm einzeilig dargestellt,
-      anschlieáend in der tempor„ren Datei SUCH1.DBF zwischengespeichert.
+      anschlieÃŸend in der temporÃ¤ren Datei SUCH1.DBF zwischengespeichert.
 
       Unter Programmpunkt 2 kann die recherchierte Suchdatei SUCH1.DBF erneut
       angeschaut werden.
 
-      Unter Programmpunkt 3 kann eine bereits frher recherchierte, externe
+      Unter Programmpunkt 3 kann eine bereits frÃ¼her recherchierte, externe
       Datei eingelesen und angezeigt werden. Hierzu wird der Dateiname (evtl.
       mit Laufwerksangabe, z.B.: A:RECH.DBF) eingegeben.
 
       Anmerkung:
-      ÍÍÍÍÍÍÍÍÍÍ
-      Die externe DBF-Datei (einschlieálich zugeh”riger DBT-Datei) muá auf
+      ==========
+      Die externe DBF-Datei (einschlieÃŸlich zugehÃ¶riger DBT-Datei) muÃŸ auf
       Diskette bzw. Platte vorhanden sein und die  g l e i c h e  Datenbank-
       struktur wie LIT.DBF besitzen, sonst erfolgt eine Fehlermeldung.
                ENDTEXT
@@ -125,15 +125,15 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 5 : TITEL&KEY
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     =============================
 
       Unter Programmpunkt 1 kann eine kombinierte Recherche nach den Feldern
       TITEL und KEYWORDn (n = 1 - 8) erfolgen. Hierzu ist ein Suchbegriff bzw.
       ein Teilstring einzugeben. Die recherchierten Daten werden bei der Suche
-      auf dem Bildschirm dargestellt, abh„ngig davon ob sie im Feld TITEL oder
-      bei den Stichworten (KEYWORD) enthalten sind. Anschlieáend werden sie in
-      der tempor„ren Datei SUCH2.DBF zwischengespeichert. Der Suchbegriff wird
-      automatisch nach Klein-  u n d   Groáschrift recherchiert.
+      auf dem Bildschirm dargestellt, abhÃ¤ngig davon ob sie im Feld TITEL oder
+      bei den Stichworten (KEYWORD) enthalten sind. AnschlieÃ¡end werden sie in
+      der temporÃ¤ren Datei SUCH2.DBF zwischengespeichert. Der Suchbegriff wird
+      automatisch nach Klein-  u n d   GroÃ¡schrift recherchiert.
 
       Unter Programmpunkt 2 kann die recherchierte Suchdatei SUCH2.DBF erneut
       angeschaut werden.
@@ -144,16 +144,16 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 6 : GENERIEREN
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     ==============================
 
-      Dieser Programmpunkt bietet die M”glichkeit anhand der recherchierten
+      Dieser Programmpunkt bietet die MÃ¶glichkeit anhand der recherchierten
       Daten (Artikel) eine Literaturliste  SUCHE.TXT  zu generieren, die im
       ASCII-Format auf Diskette bzw. Platte gespeichert wird. Somit ist die
       Datei SUCHE.TXT von beliebigen Texteditoren (z.B. WordPerfect, etc.)
-      anschlieáend weiter bearbeitbar.
+      anschlieÃŸend weiter bearbeitbar.
 
-      Es k”nnen verschiedene Recherchen (AUTOR- und TITEL&KEYWORD-Recherche)
-      zusammengefaát werden, sofern sie bereits durchgefhrt wurden und in
+      Es kÃ¶nnen verschiedene Recherchen (AUTOR- und TITEL&KEYWORD-Recherche)
+      zusammengefaÃ¡t werden, sofern sie bereits durchgefÃ¼hrt wurden und in
       e i n e r  Literaturliste abgespeichert werden.
 
       Das Format der Literaturliste setzt sich aus den beiden Datenbank-
@@ -170,9 +170,9 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 7 : SICHERN
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     ===========================
 
-      Dieser Programmpunkt bietet die M”glichkeit Dateien aus dem
+      Dieser Programmpunkt bietet die MÃ¶glichkeit Dateien aus dem
       laufenden Anwenderprogramm  IPADS.PRG  auf Diskette zu sichern.
 
       Unter Punkt 1 (bzw. 2) werden die Datenbankdateien  LIT.DB?  auf dem
@@ -182,13 +182,13 @@
       nach Eingabe neuer Daten auf jeden Fall  i m m e r  erfolgen.
 
       Anmerkung:
-      ÍÍÍÍÍÍÍÍÍÍ
-      Die tempor„ren Suchdateien (SUCH1.DBF bzw. SUCH2.DBF bzw. TEMP.DBF
-      und die zugeh”rigen DBT-Dateien) k”nnen bei Bedarf auf DOS-Ebene
-      ebenfalls gesichert werden, um sie sp„ter erneut zu bearbeiten.
+      ==========
+      Die temporÃ¤ren Suchdateien (SUCH1.DBF bzw. SUCH2.DBF bzw. TEMP.DBF
+      und die zugehÃ¶rigen DBT-Dateien) kÃ¶nnen bei Bedarf auf DOS-Ebene
+      ebenfalls gesichert werden, um sie spÃ¤ter erneut zu bearbeiten.
       Allerdings sollten sie dann umbenannt werden, da IPADS.PRG diese
       Dateinamen verwendet und beim Programmstart (IPADS.BAT) die Dateien
-      automatisch berschreibt.
+      automatisch Ã¼berschreibt.
                ENDTEXT
 
 
@@ -196,16 +196,16 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 8 : HILFE
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     =========================
 
 
       Unter Punkt 1 sind die Hilfsbildschirme (dieser Programmpunkt)
       zum IPADS-Literaturverwaltungsprogramm einzeln abrufbar.
 
       Unter Punkt 2 wird die Hilfefunktion  HELP  von  dBASE III Plus
-      aufgerufen, die ausfhrliche Informationen zur Benutzung der
-      Datenbank bereith„lt. Durch Drcken der Escape-Taste <ESC> gelangt
-      man zurck in das Literaturverwaltungsprogramm IPADS.
+      aufgerufen, die ausfÂhrliche Informationen zur Benutzung der
+      Datenbank bereithÃ¤lt. Durch DrÂcken der Escape-Taste <ESC> gelangt
+      man zurÃ¼ck in das Literaturverwaltungsprogramm IPADS.
           ENDTEXT
 
 
@@ -213,24 +213,23 @@
            CLEAR
            TEXT
                      Hilfsbildschirm 9 : ASSIST
-                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     ==========================
 
-      Bei Aufruf dieser Programmoption wird die dBASE-Benutzeroberfl„che
-      ASSIST aktiviert, welche eine Menfhrung aller dBASE-Befehle zur
-      Verfgung stellt.
+      Bei Aufruf dieser Programmoption wird die dBASE-BenutzeroberflÃ¤che
+      ASSIST aktiviert, welche eine MenÂfÂhrung aller dBASE-Befehle zur
+      VerfÃ¼gung stellt.
 
       So lassen sich zum Beispiel mit Hilfe von  ASSIST  komplexere
-      Suchkriterien und Verknpfungen realisieren, wie sie in den
-      Standard-Recherchekriterien (AUTOR und TITEL&KEY) zur Verfgung
+      Suchkriterien und VerknÃ¼pfungen realisieren, wie sie in den
+      Standard-Recherchekriterien (AUTOR und TITEL&KEY) zur VerfÃ¼gung
       stehen.
 
       Bei Aufruf von ASSIST ist Vorsicht geboten, da das Anwenderprogramm
       IPADS.PRG  verlassen wird. (Diese Programmoption sollte nur von
       'erfahrenen' Datenbankanwendern aufgerufen werden...)
 
-      Soll anschlieáend in der Literaturverwaltung fortgefahren werden,
-      so  m u á  ASSIST  mit der Escape-Taste <ESC> verlassen werden.
+      Soll anschlieÃŸend in der Literaturverwaltung fortgefahren werden,
+      so  m u Ã¡  ASSIST  mit der Escape-Taste <ESC> verlassen werden.
                ENDTEXT
 
   ENDCASE
-
