@@ -1,11 +1,11 @@
      Liste der Forschungsgebiete:
 
-     Im folgenden sind die Forschungsgebiete und die zugehîrigen Untergebiete aufgelistet.
-     Die Begriffe (GRO· geschrieben, englisch) sind in die Datenbankfelder (GEBIET und
+     Im folgenden sind die Forschungsgebiete und die zugeh√∂rigen Untergebiete aufgelistet.
+     Die Begriffe (GRO√ü geschrieben, englisch) sind in die Datenbankfelder (GEBIET und
      SUBGEBIET) entsprechend einzutragen. Besteht bei der Zuordnung des Artikels
-     Unklarheit bezÅglich der Zugehîrigkeit, so kann er jeweils unter der allgemeinen Rubrik
+     Unklarheit bez√ºglich der Zugeh√∂rigkeit, so kann er jeweils unter der allgemeinen Rubrik
      GENERAL eingetragen werden. Eine Doppeleintragung eines Artikels ist unbedingt zu
-     vermeiden, um die Datenbank nicht unnîtig aufzublÑhen. Durch eine entsprechende
+     vermeiden, um die Datenbank nicht unn√∂tig aufzubl√§hen. Durch eine entsprechende
      Wahl der Stichworte (KEYWORDn, n=1-8) kann eine Suche unter einem "anderen"
      Forschungsgebiet erleichtert werden.     LASER COOLING  ( & Trapping)
           - GENERAL      (Allg.: Manipulation von Atomstrahlen)
@@ -14,7 +14,7 @@
           - DECELERATION
           - OPTICAL TRAPS     (Neutrale Atomfallen)
           - MAGNETIC TRAPS
-          - THEORY            (Theorie der LichtkrÑfte)
+          - THEORY            (Theorie der Lichtkr‚Äûfte)
 
 
      LASER TECH
@@ -28,7 +28,7 @@
           - FIBERS            (Allg. Glasfasertechnik)
           - LIGHT BEAMS  (Gauss' Strahlen, cavities, Linsen)
           - STABILIZATION     (Regelungen, Elektronik)
-          - DATA ACQUISITION  (Me·werterfassung, -verarbeitung)
+          - DATA ACQUISITION  (Me√üwerterfassung, -verarbeitung)
           - FREQU. STANDARDS  (Metrologie, "Ramsey")
           - OPTOELECTRONICS
           - VUV GENERATION
@@ -80,3 +80,5 @@
      SURFACE
           - GENERAL      (auch Theorie)
           - EXP. TECH    (Analyse)
+
+
