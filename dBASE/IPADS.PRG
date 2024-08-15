@@ -2,10 +2,10 @@
 *                                                                    *
 * Program..: IPADS.PRG                                               *
 * Author...: Thomas Fabula, Zi.408, Tel.:73-3469                     *
-* Datum....: 14.01.88                                                *
+* Datum....: 14.01.1988                                              *
 * Notiz....: Copyright (c) 1988, Institut für Angewandte Physik      *
 *                                der Universität Bonn                *
-* Letzte Änderung: 22.08.88                                          *
+* Letzte Änderung: 22.08.1988                                        *
 *                                                                    *
 **********************************************************************
 *            Literaturverwaltung fr Physik Abstracts                *
