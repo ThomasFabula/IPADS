@@ -1,4 +1,4 @@
-{ DB3-ADI   :  Konvertierprogramm fr IPADS
+{ DB3-ADI   :  Konvertierprogramm für IPADS
 
 Programm konvertiert Literaturdaten von dBASE III+ in eine ASCII-Datei, welche von ADIMENS gelesen werden kann. 
 Die entsprechende Literatur-Datenbank muß in der Form (delimited with #) vorliegen.
