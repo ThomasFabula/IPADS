@@ -92,7 +92,7 @@
       tasten> links und rechts verschoben werden.
       Die Feldinhalte (bis auf JAHRGANG) sind hierbei nicht änderbar.
 
-      Mit der  <F1> - Funktionstaste l„át sich der Hilfsbildschirm am oberen
+      Mit der  <F1> - Funktionstaste läßt sich der Hilfsbildschirm am oberen
       Bildschirmrand jederzeit ein- bzw. ausblenden.
                ENDTEXT
 
@@ -131,7 +131,7 @@
       TITEL und KEYWORDn (n = 1 - 8) erfolgen. Hierzu ist ein Suchbegriff bzw.
       ein Teilstring einzugeben. Die recherchierten Daten werden bei der Suche
       auf dem Bildschirm dargestellt, abhängig davon ob sie im Feld TITEL oder
-      bei den Stichworten (KEYWORD) enthalten sind. Anschlieáend werden sie in
+      bei den Stichworten (KEYWORD) enthalten sind. Anschließend werden sie in
       der temporären Datei SUCH2.DBF zwischengespeichert. Der Suchbegriff wird
       automatisch nach Klein-  u n d   Groáschrift recherchiert.
 
@@ -203,8 +203,8 @@
       zum IPADS-Literaturverwaltungsprogramm einzeln abrufbar.
 
       Unter Punkt 2 wird die Hilfefunktion  HELP  von  dBASE III Plus
-      aufgerufen, die ausfhrliche Informationen zur Benutzung der
-      Datenbank bereithält. Durch Drcken der Escape-Taste <ESC> gelangt
+      aufgerufen, die ausführliche Informationen zur Benutzung der
+      Datenbank bereithält. Durch Drücken der Escape-Taste <ESC> gelangt
       man zurück in das Literaturverwaltungsprogramm IPADS.
           ENDTEXT
 
@@ -216,7 +216,7 @@
                      ==========================
 
       Bei Aufruf dieser Programmoption wird die dBASE-Benutzeroberfläche
-      ASSIST aktiviert, welche eine Menfhrung aller dBASE-Befehle zur
+      ASSIST aktiviert, welche eine Menüführung aller dBASE-Befehle zur
       Verfügung stellt.
 
       So lassen sich zum Beispiel mit Hilfe von  ASSIST  komplexere
@@ -229,7 +229,7 @@
       'erfahrenen' Datenbankanwendern aufgerufen werden...)
 
       Soll anschließend in der Literaturverwaltung fortgefahren werden,
-      so  m u á  ASSIST  mit der Escape-Taste <ESC> verlassen werden.
+      so  m u ß  ASSIST  mit der Escape-Taste <ESC> verlassen werden.
                ENDTEXT
 
   ENDCASE
