@@ -8,10 +8,10 @@
 *                                                                  *
 * Bemerkung: Dieses Programm stellt die Serviceroutinen zur        *
 *            Pflege der Literatur-Datenbank  LIT.DBF  Verfügung.   *
-*            Es sollte in regelm„áigen Abst„nden aktiviert werden, *
+*            Es sollte in regelmäßigen Abständen aktiviert werden, *
 *            um den Datenbankinhalt und die Stichwortliste zu      *
 *            aktualisieren bzw. die Datenbank zu erweitern.        *
-*            Hierbei ist es m”glich eine Vereinigungsmenge von     *
+*            Hierbei ist es möglich eine Vereinigungsmenge von     *
 *            zwei beliebigen Datenbanken zu bilden (mergen),       *
 *            ohne daá Doppeleinträge vorkommen. Das Unterschei-    *
 *            dungskriterium ist das Datenbankfeld  ZEITSCHRFT.     *
@@ -34,10 +34,10 @@
 *            ADI-DB3.PAS  -  Turbo-Pascal Quelldatei (s.o.)        *
 *            DB3-ADI.COM  -  Konvertierungsprogramm, um dBASE III+ *
 *                            Literaturliste (*.LST) nach ADIMENS   *
-*                            transferieren zu k”nnen               *
+*                            transferieren zu können               *
 *            DB3-ADI.PAS  -  Turbo-Pascal Quelldatei (s.o.)        *
 *                                                                  *
-*            tempor„re Dateien:                                    *
+*            temporäre Dateien:                                    *
 *            KEYn.DBF     -  temporäre dBASE-Einzelstichwortdatei  *
 *            KEYn.TXT     -  temporäre Text-Einzelstichwortdatei   *
 *            WORT.DBF     -  temporäre Gesamt-Stichwortdatei       *
@@ -103,7 +103,7 @@ DO WHILE .T.
          INDEX ON krzel TO lit
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste für weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
@@ -218,7 +218,7 @@ DO WHILE .T.
 
          SET CONFIRM OFF
          STORE ' ' TO wait_subst
-         @ 23,0 SAY 'Eine Taste fr weiter....' GET wait_subst
+         @ 23,0 SAY 'Eine Taste für weiter....' GET wait_subst
          READ
          SET CONFIRM ON
 
@@ -307,7 +307,7 @@ DO WHILE .T.
     (z.B.: WordPerfect) bearbeitbar.
 
     Unter Punkt 3 wird eine Liste aller Stichworteinträge generiert. Die
-    ASCII-Datei  KEYWORDS.TXT  enth„lt alle Einträge der Datenbankfelder
+    ASCII-Datei  KEYWORDS.TXT  enthält alle Einträge der Datenbankfelder
     KEYWORDn (n=1-8) alphabetisch sortiert. Kommt ein Stichwort doppelt
     vor, so wird es nur  e i n m a l  aufgeführt.
 
@@ -326,4 +326,4 @@ ENDCASE
 ENDDO T
 RETURN
 * EOF: SERVICE.PRG
-
+
