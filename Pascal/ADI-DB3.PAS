@@ -1,7 +1,7 @@
 { ADI-DB3   :  Konvertierprogramm fuer IPADS
 
 Programm konvertiert Literaturdaten von ST-ADIMENS in dBASE III+  lesbare ASCII-Dateien (delimited with #).
-Die Eingabedatei muá die Endung .MRG tragen (z.B.: name.MRG) und folgendes Format besitzen:
+Die Eingabedatei muß die Endung .MRG tragen (z.B.: name.MRG) und folgendes Format besitzen:
 
 1. Zeile : Beliebiges ASCII-Zeichen  (z.B.: = )
 2. Zeile : Kuerzel                   (max.   6 Zeichen)
@@ -43,7 +43,7 @@ var     dummy          :  string[80];
         infile,outfile :  text;
         namein,nameout :  string[12];
         i,ii,j,k       :  integer;
-        ausgabe        : boolean;
+        ausgabe        :  boolean;
 
 
 procedure sortiere_forschungsgebiet;
@@ -66,7 +66,7 @@ begin
         begin
           i5:=copy(index,5,1);
           if (i5='1')                       then subgebiet:='Magnetic Traps';
-          if ((i5='2') or (i5='3'))          then subgebiet:='Optical Traps';
+          if ((i5='2') or (i5='3'))         then subgebiet:='Optical Traps';
         end;
     end;
 
