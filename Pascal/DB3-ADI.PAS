@@ -1,7 +1,7 @@
 { DB3-ADI   :  Konvertierprogramm fr IPADS
 
-Programm konvertiert Literaturdaten von dBASE III+ in
-eine ASCII-Datei, welche von ADIMENS gelesen werden kann. Die entsprechende Literatur-Datenbank muá in der Form (delimited with #)vorliegen.
+Programm konvertiert Literaturdaten von dBASE III+ in eine ASCII-Datei, welche von ADIMENS gelesen werden kann. 
+Die entsprechende Literatur-Datenbank muß in der Form (delimited with #) vorliegen.
 
 Die Eingabedatei muss die Endung .LST tragen (z.B.: name.LST) und folgende Felder enthalten:
 
@@ -11,7 +11,8 @@ Von dBASE aus kann sie generiert werden, indem man eingibt:
 
        COPY TO name.LST FIELDS (obige Liste) DELIMITED WITH #
 
-Die konvertierte Textdatei  name.ADI  laesst sich dann von ADIMENS einlesen, oder als Textdatei (z.B.: mit WordPerfect) ausdrucken.
+Die konvertierte Textdatei  name.ADI  laesst sich dann von ADIMENS einlesen, oder als Textdatei
+(z.B.: mit WordPerfect) ausdrucken.
 
 }
 
