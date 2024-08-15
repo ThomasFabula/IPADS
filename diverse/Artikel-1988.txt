@@ -88,7 +88,7 @@ Dal88 in:Atomic Physics 10,H.Narumi,I.Shimamura(eds.),Elsevier
 DeM88 J.Appl.Phys.63,649 (1988) 
 DeV88 Phys.Rev A37, 1802 (1988) 
 Die87 Phys.Rev.Lett.59,26,2931 (1987) 
-Dub84 Pis'ma Zh.Eksp.Teor.Fiz.39,531 (1984) 
+Dub84 Pisma Zh.Eksp.Teor.Fiz.39,531 (1984) 
 Dub88 Phys.Rev.Lett.60,511 (1988) 
 Dun88 Rev.Sci.Instrum.59(3),443(1988) 
 Dur87 Phys.Rev.Lett.58,1499 (1987) 
